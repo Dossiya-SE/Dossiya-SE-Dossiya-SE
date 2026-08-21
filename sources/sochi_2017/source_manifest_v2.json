@@ -1,0 +1,43 @@
+{
+  "manifest_version": "2.0",
+  "source_id": "SOCHI-DG-2017-UPLOADED",
+  "title": "Introduction to Differential Geometry of Space Curves and Surfaces",
+  "author": "Taha Sochi",
+  "internal_date": "2017-03",
+  "internal_date_evidence": "Preface signed London, March 2017",
+  "current_upload": {
+    "displayed_filename": "2501.0039v1(1).pdf",
+    "pdf_pages": 252,
+    "bytes": 6972718,
+    "sha256": "75c340af6f6086b8aa4d9884c2911fd2e5f0250d6f7ccacfb158c9475b1dd4ad"
+  },
+  "external_metadata_policy": "Do not infer arXiv ID, DOI, ISBN, publisher, or edition from the uploaded filename. Add only after direct source or independent bibliographic verification.",
+  "foundation_scope": "Primary foundation for the ecosystem's tensor-calculus-oriented differential geometry of classical space curves and surfaces. Not a comprehensive foundation for all mathematics, physics, engineering, or numerical analysis.",
+  "global_controls": {
+    "audit": "sources/sochi_2017/SOURCE_AUDIT_V2.md",
+    "coverage_matrix": "sources/sochi_2017/COVERAGE_MATRIX_V2.md",
+    "equation_registry": "sources/sochi_2017/equation_registry_v2.json",
+    "legacy_extraction_protocol": "sources/sochi_2017/EXTRACTION_PROTOCOL.md"
+  },
+  "module_files": [
+    {"module":"01_mathematics_foundations","purpose":"canonical definitions, assumptions, identities, theorem anchors and dependencies","v2":"01_mathematics_foundations/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"02_mathematical_models","purpose":"formal curve/surface/connection/field model contracts with admissibility constraints","v2":"02_mathematical_models/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"03_mathematical_examples","purpose":"executable and worked geometric examples with independent residual checks","v2":"03_mathematical_examples/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md","code":"03_mathematical_examples/differential_geometry/source_examples_v2.py"},
+    {"module":"04_mathematical_reproductions","purpose":"independent reproduction targets with quantitative acceptance metrics","v2":"04_mathematical_reproductions/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"05_mathematical_skills_development","purpose":"artifact-based competency progression from recognition through research","v2":"05_mathematical_skills_development/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"06_mathematical_visualization_art","purpose":"copyright-safe mathematical visual grammar and verified figure regeneration","v2":"06_mathematical_visualization_art/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"07_mathematical_computing","purpose":"source-to-code kernels, scientifically cited software roles and reproducibility metadata","v2":"07_mathematical_computing/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"08_mathematical_verification","purpose":"independent analytic, invariant, numerical, topological and formal oracles","v2":"08_mathematical_verification/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md","tests":"08_mathematical_verification/tests/test_sochi_v2_examples.py"},
+    {"module":"09_mathematical_physics","purpose":"controlled source-math to physical-model bridge with external-evidence boundary","v2":"09_mathematical_physics/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"10_mathematical_engineering_applications","purpose":"evidence-state-controlled mathematics-to-engineering transfer","v2":"10_mathematical_engineering_applications/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"11_mathematics_literature_atlas","purpose":"bibliographic identity, theorem/notation atlas and provenance graph","v2":"11_mathematics_literature_atlas/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"},
+    {"module":"12_mathematics_research_lab","purpose":"explicitly new falsifiable hypotheses kept separate from source facts","v2":"12_mathematics_research_lab/sources/SOCHI_2017_UNIQUE_PURPOSE_V2.md"}
+  ],
+  "verification_states": [
+    "S0_PARSED",
+    "S1_RENDER_CHECKED",
+    "S2_ANALYTICALLY_CHECKED",
+    "S3_COMPUTATIONALLY_CHECKED"
+  ],
+  "copyright_policy": "Store compact paraphrase, equations required for reproducibility, source anchors, independent derivations/code/tests and independently regenerated graphics; do not store scans, long prose, or copied source figures."
+}
