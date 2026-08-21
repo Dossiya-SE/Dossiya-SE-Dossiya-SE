@@ -1,0 +1,60 @@
+{
+  "source_id": "SOCHI-DG-2017-UPLOADED",
+  "title": "Introduction to Differential Geometry of Space Curves and Surfaces",
+  "author": "Taha Sochi",
+  "internal_date": "2017-03",
+  "internal_date_evidence": "Preface signed London, March 2017",
+  "uploaded_filename": "2501.0039v1.pdf",
+  "pdf_pages": 252,
+  "pagination": {
+    "printed_to_pdf_rule": "pdf_page = printed_page + 1 for printed pages 1 onward",
+    "cover_pdf_page": 1
+  },
+  "source_scope": "Intermediate tensor-calculus-oriented differential geometry of space curves and surfaces; not a comprehensive foundation for all mathematics or engineering.",
+  "chapter_map": [
+    {"chapter": "Nomenclature", "printed_pages": "7-10", "pdf_pages": "8-11"},
+    {"chapter": "1 Preliminaries", "printed_pages": "11-54", "pdf_pages": "12-55"},
+    {"chapter": "2 Curves in Space", "printed_pages": "55-82", "pdf_pages": "56-83"},
+    {"chapter": "3 Surfaces in Space", "printed_pages": "83-140", "pdf_pages": "84-141"},
+    {"chapter": "4 Curvature", "printed_pages": "141-192", "pdf_pages": "142-193"},
+    {"chapter": "5 Special Curves", "printed_pages": "193-220", "pdf_pages": "194-221"},
+    {"chapter": "6 Special Surfaces", "printed_pages": "221-232", "pdf_pages": "222-233"},
+    {"chapter": "7 Tensor Differentiation over Curves and Surfaces", "printed_pages": "233-240", "pdf_pages": "234-241"},
+    {"chapter": "References", "printed_pages": "241", "pdf_pages": "242"}
+  ],
+  "module_map": [
+    {"module": "01_mathematics_foundations", "unique_purpose": "canonical definitions, notation, assumptions, equations, and theorem anchors", "source_file": "01_mathematics_foundations/sources/SOCHI_2017_FOUNDATION.md"},
+    {"module": "02_mathematical_models", "unique_purpose": "model primitives and state/constraint structures derived from curve and surface geometry", "source_file": "02_mathematical_models/sources/SOCHI_2017_MODEL_PRIMITIVES.md"},
+    {"module": "03_mathematical_examples", "unique_purpose": "executable catalog of source geometric examples and parameterizations", "source_file": "03_mathematical_examples/sources/SOCHI_2017_EXAMPLE_CATALOG.md"},
+    {"module": "04_mathematical_reproductions", "unique_purpose": "independent reproduction targets with quantitative error criteria", "source_file": "04_mathematical_reproductions/sources/SOCHI_2017_REPRODUCTION_TARGETS.md"},
+    {"module": "05_mathematical_skills_development", "unique_purpose": "exercise-anchored competency progression from recognition to independent derivation", "source_file": "05_mathematical_skills_development/sources/SOCHI_2017_SKILL_MAP.md"},
+    {"module": "06_mathematical_visualization_art", "unique_purpose": "copyright-safe regeneration of source geometry as higher-quality mathematical art", "source_file": "06_mathematical_visualization_art/sources/SOCHI_2017_VISUAL_RECONSTRUCTION.md"},
+    {"module": "07_mathematical_computing", "unique_purpose": "language-neutral computational kernels for source equations", "source_file": "07_mathematical_computing/sources/SOCHI_2017_COMPUTING_SPEC.md"},
+    {"module": "08_mathematical_verification", "unique_purpose": "analytic, invariant, domain, and numerical oracles for extracted mathematics", "source_file": "08_mathematical_verification/sources/SOCHI_2017_VERIFICATION_ORACLES.md"},
+    {"module": "09_mathematical_physics", "unique_purpose": "geometric-mechanics bridge limited to source-supported variational, geodesic, curvature, and transport concepts", "source_file": "09_mathematical_physics/sources/SOCHI_2017_GEOMETRIC_PHYSICS_BRIDGE.md"},
+    {"module": "10_mathematical_engineering_applications", "unique_purpose": "controlled transfer of geometric mathematics into engineering without misattributing applications to the source", "source_file": "10_mathematical_engineering_applications/sources/SOCHI_2017_TRANSFER_CONTRACT.md"},
+    {"module": "11_mathematics_literature_atlas", "unique_purpose": "bibliographic record, chapter map, named-result index, and provenance graph", "source_file": "11_mathematics_literature_atlas/sources/SOCHI_2017_SOURCE_RECORD.md"},
+    {"module": "12_mathematics_research_lab", "unique_purpose": "research hypotheses generated from explicit source boundaries and unresolved extensions", "source_file": "12_mathematics_research_lab/sources/SOCHI_2017_GAP_TO_HYPOTHESIS.md"}
+  ],
+  "core_equation_anchors": [
+    {"eq": 46, "topic": "Euler characteristic", "printed_page": 27},
+    {"eq": 47, "topic": "Euler characteristic and genus", "printed_page": 28},
+    {"eq": 63, "topic": "Christoffel symbols of the second kind", "printed_page": 43},
+    {"eq": 88, "topic": "Riemann-Christoffel tensor first kind", "printed_page": 47},
+    {"eq": 89, "topic": "Riemann-Christoffel tensor second kind", "printed_page": 47},
+    {"eq": 96, "topic": "Ricci scalar", "printed_page": 49},
+    {"eq": 126, "topic": "curvature of a generally parameterized space curve", "printed_page": 69},
+    {"eq": 129, "topic": "torsion of a generally parameterized space curve", "printed_page": 70},
+    {"eq": 136, "topic": "Frenet-Serret tangent derivative", "printed_page": 72},
+    {"eq": 137, "topic": "Frenet-Serret normal derivative", "printed_page": 72},
+    {"eq": 138, "topic": "Frenet-Serret binormal derivative", "printed_page": 72},
+    {"eq": 418, "topic": "geodesic equation on a surface", "printed_page": 204},
+    {"eq": 441, "topic": "covariant/absolute derivative of metric vanishes", "printed_page": 233},
+    {"eq": 449, "topic": "covariant derivative of covariant surface vector", "printed_page": 234},
+    {"eq": 450, "topic": "covariant derivative of contravariant surface vector", "printed_page": 235},
+    {"eq": 465, "topic": "absolute derivative of covariant surface vector along curve", "printed_page": 237},
+    {"eq": 466, "topic": "absolute derivative of contravariant surface vector along curve", "printed_page": 237}
+  ],
+  "copyright_handling": "No original figures or long prose copied. Store compact paraphrase, formulas, source anchors, independent code, and regenerated graphics.",
+  "verification_policy": "Parsed-text equations used in executable artifacts must be checked against rendered PDF pages before stable verified status."
+}
