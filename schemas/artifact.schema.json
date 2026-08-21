@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mathematical Artifact",
+  "type": "object",
+  "required": ["id", "title", "artifact_type", "status", "domain", "definitions", "assumptions", "verification"],
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "artifact_type": {"enum": ["definition", "theorem", "proof", "derivation", "formula", "model", "example", "reproduction", "visualization", "algorithm", "software", "experiment", "application", "paper"]},
+    "status": {"enum": ["idea", "learning", "deriving", "implementing", "verifying", "validated", "research-ready", "publication-ready"]},
+    "domain": {"type": "array", "items": {"type": "string"}},
+    "definitions": {"type": "array", "items": {"type": "string"}},
+    "assumptions": {"type": "array", "items": {"type": "string"}},
+    "units": {"type": ["object", "null"]},
+    "provenance": {"type": ["array", "null"], "items": {"type": "string"}},
+    "verification": {"type": "object", "required": ["method"], "properties": {"method": {"type": "array", "items": {"type": "string"}}}},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

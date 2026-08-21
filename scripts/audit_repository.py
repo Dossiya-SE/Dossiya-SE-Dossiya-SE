@@ -1,0 +1,25 @@
+"""Structural audit for the twelve-module bootstrap."""
+
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+REQUIRED = [
+    "01_mathematics_foundations",
+    "02_mathematical_models",
+    "03_mathematical_examples",
+    "04_mathematical_reproductions",
+    "05_mathematical_skills_development",
+    "06_mathematical_visualization_art",
+    "07_mathematical_computing",
+    "08_mathematical_verification",
+    "09_mathematical_physics",
+    "10_mathematical_engineering_applications",
+    "11_mathematics_literature_atlas",
+    "12_mathematics_research_lab",
+]
+
+missing = [p for p in REQUIRED if not (ROOT / p).is_dir()]
+if missing:
+    raise SystemExit(f"Missing required modules: {missing}")
+
+print("PASS: all 12 mathematics ecosystem modules are present.")
