@@ -1,8 +1,14 @@
 # Mathematics Research Ecosystem — Bootstrap
 
+<p align="center">
+  <img src="assets/mathematics-ecosystem-v4.svg" width="100%" alt="Adaptive Mathematics Research Ecosystem architecture" />
+</p>
+
 This repository is the executable bootstrap and integration reference for the planned Dossiya-SE Mathematics Research Ecosystem.
 
 It is intentionally organized as a monorepo prototype because the currently connected GitHub interface can modify repositories but cannot create or rename repositories or edit GitHub Projects v2. Each top-level module is designed so it can later be split into its own repository without changing its internal contract.
+
+The top visual is a single adaptive SVG: it preserves mathematical content and evidence status while switching contrast and semantic color tokens with the viewer's light/dark system preference.
 
 ## Scientific pipeline
 
