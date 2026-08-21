@@ -61,6 +61,50 @@ The legacy V1 extraction controls remain preserved in:
 - `sources/sochi_2017/EXTRACTION_PROTOCOL.md`
 - `sources/sochi_2017/source_manifest.json`
 
+## Profile mathematical presentation integration V3
+
+The Mathematics Research Ecosystem is now explicitly connected to the profile-wide professional mathematical presentation system maintained in `Dossiya-SE/Dossiya-SE`.
+
+Two module-specific integration documents preserve unique responsibilities:
+
+- `06_mathematical_visualization_art/PROFILE_PRESENTATION_BRIDGE_V3.md` — how verified/source-defined mathematical objects may be transformed into visual objects without changing their epistemic status;
+- `11_mathematics_literature_atlas/PROFILE_FORMULA_PROVENANCE_V3.md` — how displayed formulas are classified by source/project provenance and evidence type.
+
+The profile-wide evidence-state vocabulary is:
+
+```text
+[S] source-grounded
+[D] derived
+[M] model
+[C] computed
+[V] verified
+[E] empirical
+[H] hypothesis
+[T] engineering/design target
+```
+
+This creates the profile-level invariant
+
+\[
+\boxed{
+\text{mathematical/source status before visualization}
+=
+\text{mathematical/source status after visualization}
+}
+\]
+
+unless new verification or empirical evidence is explicitly added.
+
+The V3 integration also freezes the distinction
+
+```text
+source differential geometry
+≠ geometric metaphor
+≠ formally defined research manifold
+```
+
+so curvature, geodesic, metric, or manifold language cannot be transferred into infrastructure research merely because a visual resembles a geometric surface.
+
 ## Computing evidence stack
 
 `07_mathematical_computing/COMPUTING_TOOLCHAIN.md` defines scientific roles and in-text scholarly/software citations for the principal computing systems used in the ecosystem, including NumPy, SciPy, SymPy, Matplotlib, PyVista/VTK, Julia, DifferentialEquations.jl, Manifolds.jl, SageMath, and Lean/mathlib. Specialized roles are also defined for Wolfram Language/Mathematica, MATLAB, LaTeX/TikZ, Asymptote, Blender, GLSL, Manim, C/C++, and CUDA.
@@ -93,4 +137,6 @@ Every stable mathematical artifact should state: definition, domain, assumptions
 
 Source-grounded artifacts must additionally preserve section/page/equation or exercise anchors and explicitly distinguish **source mathematics** from **new applications or research hypotheses**.
 
-See `GOVERNANCE.md`, `ARCHITECTURE.md`, `examples/FLAGSHIP_DEMONSTRATOR.md`, `sources/sochi_2017/EXTRACTION_PROTOCOL.md`, and `sources/sochi_2017/SOURCE_AUDIT_V2.md`.
+Profile-facing artifacts must additionally preserve their V3 evidence-state label, visual semantics, and formula provenance class.
+
+See `GOVERNANCE.md`, `ARCHITECTURE.md`, `examples/FLAGSHIP_DEMONSTRATOR.md`, `sources/sochi_2017/EXTRACTION_PROTOCOL.md`, `sources/sochi_2017/SOURCE_AUDIT_V2.md`, `06_mathematical_visualization_art/PROFILE_PRESENTATION_BRIDGE_V3.md`, and `11_mathematics_literature_atlas/PROFILE_FORMULA_PROVENANCE_V3.md`.
