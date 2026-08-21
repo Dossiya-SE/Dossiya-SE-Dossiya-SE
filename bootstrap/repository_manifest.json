@@ -1,0 +1,19 @@
+{
+  "owner": "Dossiya-SE",
+  "project_number": 3,
+  "default_visibility": "private",
+  "repositories": [
+    {"name": "mathematics-foundations", "module": "01_mathematics_foundations", "purpose": "Definitions, notation, axioms, theorems, derivations and formula foundations"},
+    {"name": "mathematical-models", "module": "02_mathematical_models", "purpose": "Complete mathematical model specifications and architectures"},
+    {"name": "mathematical-examples", "module": "03_mathematical_examples", "purpose": "Worked examples from elementary through research level"},
+    {"name": "mathematical-reproductions", "module": "04_mathematical_reproductions", "purpose": "Independent reproductions of published equations, figures, algorithms and results"},
+    {"name": "mathematical-skills-development", "module": "05_mathematical_skills_development", "purpose": "Structured competence ladders and mastery evidence"},
+    {"name": "mathematical-visualization-art", "module": "06_mathematical_visualization_art", "purpose": "Scientific visualization, differential-geometry art and publication graphics"},
+    {"name": "mathematical-computing", "module": "07_mathematical_computing", "purpose": "Multi-language mathematical computing implementations"},
+    {"name": "mathematical-verification", "module": "08_mathematical_verification", "purpose": "Symbolic, numerical, formal and property-based verification"},
+    {"name": "mathematical-physics", "module": "09_mathematical_physics", "purpose": "Mechanics, thermodynamics, field theory, nonlinear dynamics and geometric mechanics"},
+    {"name": "mathematical-engineering-applications", "module": "10_mathematical_engineering_applications", "purpose": "Energy, infrastructure, resilience, sustainability, risk and digital-twin applications"},
+    {"name": "mathematics-literature-atlas", "module": "11_mathematics_literature_atlas", "purpose": "Bibliographic provenance, theorem lineage and citation maps"},
+    {"name": "mathematics-research-lab", "module": "12_mathematics_research_lab", "purpose": "Conjectures, experiments, prototypes, failed attempts and emerging research questions"}
+  ]
+}
