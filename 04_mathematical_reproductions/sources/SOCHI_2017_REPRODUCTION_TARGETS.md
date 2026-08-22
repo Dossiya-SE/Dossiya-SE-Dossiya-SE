@@ -18,17 +18,17 @@ Source anchor: Chapter 2, §2.3, printed p. 66.
 
 For
 
-\[
+$$
 r(t)=(a\cos t,a\sin t,bt),
-\]
+$$
 
 reproduce
 
-\[
+$$
 \kappa=\frac{|a|}{a^2+b^2},
 \qquad
 \tau=\frac{b}{a^2+b^2}
-\]
+$$
 
 under the repository's orientation convention.
 
@@ -46,15 +46,15 @@ Source parameterization: §1.4.1, Eqs. (7)–(9), printed pp. 18–19.
 
 For
 
-\[
+$$
 X(\theta,\phi)=((R+r\cos\phi)\cos\theta,(R+r\cos\phi)\sin\theta,r\sin\phi),
-\]
+$$
 
 reproduce
 
-\[
+$$
 E=(R+r\cos\phi)^2,\qquad F=0,\qquad G=r^2,
-\]
+$$
 
 then compute Gaussian curvature independently from the first/second fundamental forms and compare with the analytic benchmark already used by the bootstrap.
 
@@ -69,9 +69,9 @@ then compute Gaussian curvature independently from the first/second fundamental 
 
 Source anchor: §4.8, especially global Eq. (396), printed pp. 175–176.
 
-\[
+$$
 \iint_S K\,d\sigma=2\pi\chi.
-\]
+$$
 
 Benchmarks:
 
@@ -96,9 +96,9 @@ The book uses rolling a plane into a cylinder to illustrate that principal/mean 
 
 Construct local parameterizations of a plane and circular cylinder with matching first fundamental forms and verify:
 
-\[
+$$
 K_{plane}=K_{cylinder}=0,
-\]
+$$
 
 while the cylinder has nonzero extrinsic curvature.
 
@@ -112,9 +112,9 @@ Source anchor: Chapter 6 exercises 6.42–6.46; catenoid parameterization from �
 
 Compute the first and second fundamental forms and verify
 
-\[
+$$
 H\approx0
-\]
+$$
 
 throughout a regular sampled domain, excluding numerical pathologies.
 
@@ -148,9 +148,9 @@ Source anchor: Chapter 7, Eq. (441), printed p. 233.
 
 For a nontrivial surface metric, independently compute the Levi-Civita connection and verify
 
-\[
+$$
 \nabla_\gamma a_{\alpha\beta}=0.
-\]
+$$
 
 This becomes a high-value symbolic regression test for the computing stack.
 

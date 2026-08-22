@@ -22,7 +22,7 @@ The torus + coupled-infrastructure example is designed to prove that the ecosyst
 A V1 release is acceptable when:
 
 1. Python tests pass;
-2. torus \(K\) has correct sign at inner/outer equators;
+2. torus $K$ has correct sign at inner/outer equators;
 3. torus Gauss--Bonnet error is numerically near zero;
 4. sphere Gauss--Bonnet error converges toward zero;
 5. geodesic energy drift is below the stated tolerance;

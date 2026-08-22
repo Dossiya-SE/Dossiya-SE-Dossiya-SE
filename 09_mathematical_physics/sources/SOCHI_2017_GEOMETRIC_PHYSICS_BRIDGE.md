@@ -8,9 +8,9 @@ In the preliminaries, Sochi introduces the first variation through a Gâteaux-de
 
 For a functional
 
-\[
+$$
 \mathcal A[q]=\int L(q,\dot q,t)\,dt,
-\]
+$$
 
 a stationary trajectory satisfies the Euler–Lagrange equations under the usual regularity and endpoint assumptions. The **physical meaning of `L` is not supplied by the geometry book** and must come from an appropriate mechanics source.
 
@@ -18,9 +18,9 @@ a stationary trajectory satisfies the Euler–Lagrange equations under the usual
 
 Sochi's surface geodesic equation is
 
-\[
+$$
 \ddot u^\alpha+\Gamma^\alpha_{\beta\gamma}\dot u^\beta\dot u^\gamma=0
-\]
+$$
 
 (Sochi, 2017, §5.7, Eq. 418). In mathematical physics this is a natural model for free motion constrained by a metric, but the physical metric and parameter interpretation must be separately justified.
 
@@ -32,15 +32,15 @@ Sochi's surface geodesic equation is
 
 The Frenet–Serret system (Sochi Eqs. 136–143) evolves an orthonormal moving frame along a curve:
 
-\[
+$$
 T'=\kappa N,\qquad N'=\tau B-\kappa T,\qquad B'=-\tau N.
-\]
+$$
 
 The source also introduces the Darboux vector
 
-\[
+$$
 d=\tau T+\kappa B.
-\]
+$$
 
 This is mathematically useful for rod/filament kinematics, trajectories, and moving-frame mechanics. Constitutive laws, energy functionals, forces, and material parameters are **extensions**, not claims from Sochi.
 
@@ -50,13 +50,13 @@ Chapter 7 gives surface divergence and Laplacian forms using the surface metric 
 
 The bridge is:
 
-\[
+$$
 \text{surface geometry}
 \rightarrow
 \nabla_S,\ \nabla_S\!\cdot,\ \Delta_S
 \rightarrow
 \text{PDE model on a manifold}.
-\]
+$$
 
 The PDE itself and its constitutive/source terms require domain-specific physical evidence.
 
@@ -64,9 +64,9 @@ The PDE itself and its constitutive/source terms require domain-specific physica
 
 Global Gauss–Bonnet connects total Gaussian curvature to Euler characteristic:
 
-\[
+$$
 \iint_S K\,d\sigma=2\pi\chi
-\]
+$$
 
 (Sochi, 2017, Eq. 396). In physical models of shells, membranes, or interfaces, this can create topology-sensitive constraints. Any energetic interpretation, however, must cite the relevant physical theory separately.
 

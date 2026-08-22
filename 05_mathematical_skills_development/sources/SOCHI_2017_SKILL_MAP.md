@@ -36,9 +36,9 @@ Source anchors: Chapter 2; especially Exercises 2.21–2.30 and 2.74–2.91.
 
 Required competencies:
 
-\[
+$$
 T,\quad N,\quad B,\quad \kappa,\quad \tau,
-\]
+$$
 
 plus osculating/rectifying/normal planes, osculating circle/sphere, Darboux vector, and parallel propagation.
 

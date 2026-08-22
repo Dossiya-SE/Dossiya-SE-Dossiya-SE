@@ -40,9 +40,9 @@ For every catalog object:
 
 Compute
 
-\[
+$$
 X_u,\quad X_v,\quad X_u\times X_v,
-\]
+$$
 
 and test regularity on the selected domain. For a curve, compute `r'`, `r''`, and where needed `r'''`.
 
@@ -50,9 +50,9 @@ and test regularity on the selected domain. For a curve, compute `r'`, `r''`, an
 
 For a regular surface patch compute
 
-\[
+$$
 g_{ij}=\langle X_i,X_j\rangle,
-\]
+$$
 
 then Christoffel symbols and Gaussian curvature. Separately compute normal-dependent quantities such as the second fundamental form and mean curvature. This maintains Sochi's intrinsic/extrinsic distinction (§1.3.2).
 

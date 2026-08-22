@@ -41,9 +41,9 @@ Inputs: `(u,v)` and geometry parameters.
 
 Outputs:
 
-\[
+$$
 X,\ X_u,\ X_v,\ n,\ g_{ij},\ b_{ij},\ dA,
-\]
+$$
 
 plus curvature fields where regular.
 
@@ -53,9 +53,9 @@ Source: §§1.4.9–1.4.11 and Chapter 4.
 
 Compute
 
-\[
+$$
 \Gamma^k_{ij},\quad R^i{}_{jkl},\quad R_{ij},\quad R,
-\]
+$$
 
 with the source convention documented. Symbolic implementations should simplify tensor symmetries and metric compatibility.
 
@@ -65,9 +65,9 @@ Source: Eqs. (136)–(139).
 
 Integrate
 
-\[
+$$
 Y'=A(\kappa,\tau)Y,
-\]
+$$
 
 where `A` is skew-symmetric under the source convention. Monitor orthonormal-frame drift as a numerical diagnostic.
 
@@ -77,9 +77,9 @@ Source: Eq. (418).
 
 Integrate
 
-\[
+$$
 \ddot u^\alpha=-\Gamma^\alpha_{\beta\gamma}\dot u^\beta\dot u^\gamma.
-\]
+$$
 
 The implementation must distinguish coordinate singularities from true geometric failure and must not label every geodesic globally shortest.
 

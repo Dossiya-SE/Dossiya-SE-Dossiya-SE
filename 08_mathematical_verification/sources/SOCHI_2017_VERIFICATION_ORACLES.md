@@ -8,9 +8,9 @@
 
 A curve quantity requiring `r' != 0` must fail or return an explicit undefined state at nonregular points. A surface quantity requiring a regular patch must guard
 
-\[
+$$
 \|X_u\times X_v\|>0.
-\]
+$$
 
 Source anchors: Sochi (2017), §§1.4.3, 2.1.
 
@@ -18,19 +18,19 @@ Source anchors: Sochi (2017), §§1.4.3, 2.1.
 
 For the Frenet frame where defined:
 
-\[
+$$
 T\cdot T=N\cdot N=B\cdot B=1,
-\]
+$$
 
-\[
+$$
 T\cdot N=T\cdot B=N\cdot B=0,
-\]
+$$
 
 and under the source orientation convention
 
-\[
+$$
 B=T\times N.
-\]
+$$
 
 Source anchor: Sochi (2017), Eqs. (113), (115)–(117), printed pp. 62–63.
 
@@ -42,9 +42,9 @@ The coefficient matrix in Sochi Eq. (139) is skew-symmetric. A numerical integra
 
 For a regular Riemannian surface patch,
 
-\[
+$$
 g_{12}=g_{21},\qquad \det g=EG-F^2>0.
-\]
+$$
 
 The determinant is also tied to the squared area density. A negative determinant signals a derivation/implementation error for the Euclidean embedded surfaces considered here.
 
@@ -52,9 +52,9 @@ The determinant is also tied to the squared area density. A negative determinant
 
 For the Levi-Civita connection used in the source:
 
-\[
+$$
 \Gamma^k_{ij}=\Gamma^k_{ji}.
-\]
+$$
 
 Source anchor: Sochi Eq. (66).
 
@@ -62,9 +62,9 @@ Source anchor: Sochi Eq. (66).
 
 Chapter 7 requires
 
-\[
+$$
 \nabla_\gamma g_{\alpha\beta}=0.
-\]
+$$
 
 Source anchor: Sochi Eq. (441). This is a strong symbolic oracle for any Christoffel implementation.
 
@@ -85,9 +85,9 @@ Source anchors: Sochi §§1.4.6 and 4.7.
 
 For compact orientable closed benchmark surfaces satisfying the theorem hypotheses:
 
-\[
+$$
 \iint_S K\,d\sigma=2\pi\chi.
-\]
+$$
 
 Source anchor: Sochi Eq. (396), printed p. 175.
 
@@ -100,9 +100,9 @@ Benchmarks:
 
 For an affine/natural parameter, check constant metric speed where appropriate:
 
-\[
+$$
 E_g=g_{ij}\dot u^i\dot u^j.
-\]
+$$
 
 If a coordinate is cyclic in the metric, test the corresponding conserved momentum. Do not use Euclidean straightness as the oracle on a curved surface.
 
@@ -112,9 +112,9 @@ Source anchor: Sochi §5.7, Eq. (418).
 
 For regular patches represented with a declared orientation, a minimal surface satisfies
 
-\[
+$$
 H=0.
-\]
+$$
 
 Source anchor: Sochi Chapter 6, §6.7 and Exercises 6.42–6.46.
 

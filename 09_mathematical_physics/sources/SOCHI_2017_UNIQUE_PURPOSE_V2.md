@@ -26,12 +26,12 @@ Physics extension examples, requiring independent physics sources:
 
 Source mathematics:
 
-\[
+$$
 \frac{d^2u^\alpha}{ds^2}
 +\Gamma^\alpha_{\beta\gamma}
 \frac{du^\beta}{ds}
 \frac{du^\gamma}{ds}=0.
-\]
+$$
 
 This defines intrinsic geodesic motion mathematically. A statement such as "a free particle follows this curve" is **not** attributed to the book unless separately sourced in the relevant physical theory.
 
@@ -45,13 +45,13 @@ Computational physics experiment:
 
 Frenet-Serret equations provide a moving-frame description of a spatial curve:
 
-\[
+$$
 T'=\kappa N,
 \qquad
 N'=\tau B-\kappa T,
 \qquad
 B'=-\tau N.
-\]
+$$
 
 Possible physics extensions:
 - rod/filament kinematics;
@@ -71,17 +71,17 @@ Physical stresses, strains, material laws, thickness effects, and energy densiti
 
 The source gives the Laplace-Beltrami operator:
 
-\[
+$$
 \Delta_S f
 =\frac{1}{\sqrt a}\partial_\alpha
 (\sqrt a\,a^{\alpha\beta}\partial_\beta f).
-\]
+$$
 
 This is a geometry operator. It can enter externally sourced physical PDEs such as:
 
-\[
+$$
 \partial_t c=D\Delta_S c
-\]
+$$
 
 only after the diffusion coefficient, conservation law, units, boundary conditions, and physical interpretation are independently specified.
 
@@ -89,9 +89,9 @@ only after the diffusion coefficient, conservation law, units, boundary conditio
 
 The source divergence
 
-\[
+$$
 \nabla\cdot A=\frac{1}{\sqrt a}\partial_\alpha(\sqrt aA^\alpha)
-\]
+$$
 
 supports conservation-law formulations on a surface. Again, the conserved quantity and flux law are physics/model inputs, not provided by differential geometry alone.
 
@@ -99,9 +99,9 @@ supports conservation-law formulations on a surface. Again, the conserved quanti
 
 Gaussian and mean curvature are mathematically established by the source. Any energy of the form
 
-\[
+$$
 \mathcal E=\int_S \Phi(H,K,\ldots)\,dA
-\]
+$$
 
 is classified as a physics/model extension unless independently sourced. This prevents a common error: inferring an energy law merely because curvature quantities exist.
 

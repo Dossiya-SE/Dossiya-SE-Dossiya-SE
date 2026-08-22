@@ -12,9 +12,9 @@ The top visual is a single adaptive SVG: it preserves mathematical content and e
 
 ## Scientific pipeline
 
-\[
+$$
 \text{Learn} \rightarrow \text{Define} \rightarrow \text{Derive} \rightarrow \text{Model} \rightarrow \text{Implement} \rightarrow \text{Visualize} \rightarrow \text{Verify} \rightarrow \text{Reproduce} \rightarrow \text{Apply} \rightarrow \text{Research}
-\]
+$$
 
 ## Modules
 
@@ -91,13 +91,13 @@ The profile-wide evidence-state vocabulary is:
 
 This creates the profile-level invariant
 
-\[
+```math
 \boxed{
 \text{mathematical/source status before visualization}
 =
 \text{mathematical/source status after visualization}
 }
-\]
+```
 
 unless new verification or empirical evidence is explicitly added.
 
@@ -117,9 +117,9 @@ so curvature, geodesic, metric, or manifold language cannot be transferred into 
 
 The core rule is dual provenance:
 
-\[
+$$
 \boxed{\text{mathematical source citation} + \text{software citation}}
-\]
+$$
 
 for computational research outputs.
 

@@ -16,11 +16,11 @@ Required before any claim:
 
 ## EXP-002 — Interface uncertainty -> geometry uncertainty
 
-If interface parameters are \(\theta\) with covariance \(\Sigma_\theta\), study
+If interface parameters are $\theta$ with covariance $\Sigma_\theta$, study
 
-\[
+$$
 \theta\mapsto \mathcal V(\theta)
-\]
+$$
 
 using set distances such as Hausdorff distance, while keeping parameter-identification error separate from viability-computation error.
 

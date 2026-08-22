@@ -4,7 +4,7 @@
 |---|---|---|
 | L0 | Recognize | identify curve, surface, tangent, normal, metric, curvature |
 | L1 | Understand | explain intrinsic vs extrinsic geometry |
-| L2 | Derive | derive \(g_{ij}\), selected \(\Gamma^k{}_{ij}\), and \(K\) for benchmark surfaces |
+| L2 | Derive | derive $g_{ij}$, selected $\Gamma^k{}_{ij}$, and $K$ for benchmark surfaces |
 | L3 | Apply | solve a geodesic initial-value problem numerically |
 | L4 | Implement | build tested Python/Julia/Wolfram implementations and publication figures |
 | L5 | Generalize | formulate and defend a new geometry-aware research model |
@@ -13,15 +13,15 @@
 
 For the torus, derive
 
-\[
+$$
 E=(R+r\cos v)^2,\quad F=0,\quad G=r^2.
-\]
+$$
 
 Then derive or independently verify
 
-\[
+$$
 K(v)=\frac{\cos v}{r(R+r\cos v)}.
-\]
+$$
 
 ## Required L4 benchmark
 

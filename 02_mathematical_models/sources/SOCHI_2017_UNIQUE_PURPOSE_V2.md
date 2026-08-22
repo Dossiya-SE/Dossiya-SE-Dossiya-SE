@@ -4,9 +4,9 @@
 
 ## M1 - Regular space-curve model
 
-\[
+$$
 \mathcal M_C=(I,r,t,\dot r,T,N,B,\kappa,\tau).
-\]
+$$
 
 ### Inputs
 - interval `I`;
@@ -31,32 +31,32 @@
 
 ## M2 - Regular parametric-surface model
 
-\[
+$$
 \mathcal M_S=(\Omega,r,E_1,E_2,n,a_{\alpha\beta},a^{\alpha\beta},b_{\alpha\beta}).
-\]
+$$
 
 ### Inputs
 - open parameter domain `Omega subset R^2`;
 - sufficiently differentiable `r(u,v):Omega->R^3`.
 
 ### Admissibility
-\[
+$$
 E_1\times E_2\neq0,
 \qquad a=EG-F^2>0.
-\]
+$$
 
 ### Derived state
-\[
+$$
 E_\alpha=\partial_\alpha r,
 \qquad
 n=\frac{E_1\times E_2}{\|E_1\times E_2\|},
-\]
+$$
 
-\[
+$$
 a_{\alpha\beta}=E_\alpha\cdot E_\beta,
 \qquad
 b_{\alpha\beta}=n\cdot\partial_{\alpha\beta}r
-\]
+$$
 
 for the Cartesian-embedding convention used by the source.
 
@@ -69,9 +69,9 @@ for the Cartesian-embedding convention used by the source.
 
 ## M3 - Intrinsic connection/curvature model
 
-\[
+$$
 \mathcal M_I=(a_{\alpha\beta},a^{\alpha\beta},\Gamma^\alpha_{\beta\gamma},R^\alpha{}_{\beta\gamma\delta},K).
-\]
+$$
 
 Pipeline:
 
@@ -83,23 +83,23 @@ This model is explicitly independent of the surface normal once the metric is su
 
 ## M4 - Shape-operator model
 
-\[
+$$
 S^\alpha{}_{\beta}=a^{\alpha\gamma}b_{\gamma\beta}.
-\]
+$$
 
 The principal curvatures are eigenvalues of `S`. Hence:
 
-\[
+$$
 \kappa^2-2H\kappa+K=0,
-\]
+$$
 
 with
 
-\[
+$$
 H=\frac12\operatorname{tr}S,
 \qquad
 K=\det S.
-\]
+$$
 
 Validity depends on a regular surface patch and consistent surface orientation.
 
@@ -117,19 +117,19 @@ The source's Gauss-Weingarten and Gauss-Codazzi relations are treated as structu
 
 State:
 
-\[
+$$
 y=(u^1,u^2,v^1,v^2),
 \qquad v^\alpha=\frac{du^\alpha}{ds}.
-\]
+$$
 
 Dynamics from Eq. (418):
 
-\[
+$$
 \frac{du^\alpha}{ds}=v^\alpha,
 \qquad
 \frac{dv^\alpha}{ds}
 =-\Gamma^\alpha_{\beta\gamma}v^\beta v^\gamma.
-\]
+$$
 
 Inputs:
 - metric or Christoffel field;
@@ -152,17 +152,17 @@ This model must distinguish:
 
 ## M8 - Scalar field on a surface
 
-\[
+$$
 \mathcal M_f=(S,a_{\alpha\beta},f,\nabla f,\Delta_S f).
-\]
+$$
 
 The source provides the Laplace-Beltrami form
 
-\[
+$$
 \Delta_S f
 =\frac{1}{\sqrt a}\partial_\alpha
 (\sqrt a\,a^{\alpha\beta}\partial_\beta f)
-\]
+$$
 
 (Eq. 475). This model is purely mathematical here. Heat, diffusion, wave, or transport interpretations belong in Mathematical Physics and require separate constitutive assumptions.
 
@@ -170,10 +170,10 @@ The source provides the Laplace-Beltrami form
 
 For tangent components `A^alpha`:
 
-\[
+$$
 \nabla\cdot A
 =\frac{1}{\sqrt a}\partial_\alpha(\sqrt a A^\alpha)
-\]
+$$
 
 (Eq. 474).
 
@@ -188,11 +188,11 @@ Required model metadata:
 
 For compact orientable surfaces of the class stated in the source:
 
-\[
+$$
 \iint_S K\,d\sigma=2\pi\chi,
 \qquad
 \chi=2(1-g).
-\]
+$$
 
 This is a global constraint model, not a pointwise local model. It is especially useful as a reproduction/verification oracle.
 
