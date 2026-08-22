@@ -153,7 +153,7 @@ def validate_registry(objects: list[dict[str, Any]], source_doc: dict[str, Any])
 
 
 def generate_graphml(objects: list[dict[str, Any]]) -> str:
-    """Return deterministic GraphML from registry records."""
+    """Return deterministic compact GraphML from registry records."""
     ordered = sorted(objects, key=lambda x: x["object_id"])
     edges = sorted((dep, obj["object_id"]) for obj in ordered for dep in obj["dependencies"])
     lines = [
@@ -167,14 +167,12 @@ def generate_graphml(objects: list[dict[str, Any]]) -> str:
     ]
     for obj in ordered:
         oid = html.escape(obj["object_id"], quote=True)
-        lines.extend([
-            f'    <node id="{oid}">',
-            f'      <data key="name">{html.escape(obj["name"])}</data>',
-            f'      <data key="evidence">{html.escape(obj["evidence_state"])}</data>',
-            f'      <data key="proof">{html.escape(obj["proof_status"])}</data>',
-            f'      <data key="maturity">{html.escape(obj["maturity"])}</data>',
-            '    </node>',
-        ])
+        lines.append(
+            f'    <node id="{oid}"><data key="name">{html.escape(obj["name"])}</data>'
+            f'<data key="evidence">{html.escape(obj["evidence_state"])}</data>'
+            f'<data key="proof">{html.escape(obj["proof_status"])}</data>'
+            f'<data key="maturity">{html.escape(obj["maturity"])}</data></node>'
+        )
     for index, (source, target) in enumerate(edges):
         lines.append(
             f'    <edge id="e{index:03d}" source="{html.escape(source, quote=True)}" '
