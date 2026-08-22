@@ -29,10 +29,10 @@
 2. Circle radius `R`: `kappa=1/R`, `tau=0`.
 3. Circular helix `r(t)=(a cos t,a sin t,bt)`:
 
-\[
+$$
 \kappa=\frac{|a|}{a^2+b^2},\qquad
 \tau=\frac{b}{a^2+b^2}
-\]
+$$
 
 under the orientation/sign convention used in the source.
 

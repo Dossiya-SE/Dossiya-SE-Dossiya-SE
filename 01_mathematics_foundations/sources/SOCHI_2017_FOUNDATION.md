@@ -39,9 +39,9 @@ A parameterized curve is regular at a point when its velocity exists and is nonz
 
 For a mapping `S(u,v) = (S1,S2,S3)`, regularity requires sufficient differentiability and a Jacobian matrix of rank 2. The source gives the equivalent basis condition
 
-\[
+$$
 E_1\times E_2 \neq 0.
-\]
+$$
 
 See §1.4.3, printed pp. 34–36, especially Eq. (55) and the discussion immediately following it.
 
@@ -55,11 +55,11 @@ The source distinguishes properties determined by the metric / first fundamental
 
 From §1.4.9, printed pp. 43–46:
 
-\[
+$$
 \Gamma^k_{ij}=\frac12 g^{kl}
 \left(\partial_j g_{il}+\partial_i g_{jl}-\partial_l g_{ij}\right),
 \tag{Sochi Eq. 63}
-\]
+$$
 
 with symmetry in the lower paired indices for the Levi-Civita connection used in the text.
 
@@ -67,12 +67,12 @@ with symmetry in the lower paired indices for the Levi-Civita connection used in
 
 From §1.4.10, printed pp. 46–48:
 
-\[
+$$
 R^i{}_{jkl}
 =\partial_k\Gamma^i_{jl}-\partial_l\Gamma^i_{jk}
 +\Gamma^r_{jl}\Gamma^i_{rk}-\Gamma^r_{jk}\Gamma^i_{rl}.
 \tag{Sochi Eq. 89}
-\]
+$$
 
 The book uses vanishing of the Riemann-Christoffel tensor as the intrinsic-flatness criterion.
 
@@ -80,17 +80,17 @@ The book uses vanishing of the Riemann-Christoffel tensor as the intrinsic-flatn
 
 For a generally parameterized space curve `r(t)`, §2.3 gives
 
-\[
+$$
 \kappa=\frac{\lVert \dot r\times \ddot r\rVert}{\lVert\dot r\rVert^3},
 \tag{Sochi Eq. 126, equivalent form}
-\]
+$$
 
 and
 
-\[
+$$
 \tau=\frac{\dot r\cdot(\ddot r\times \dddot r)}{\lVert\dot r\times\ddot r\rVert^2}.
 \tag{Sochi Eq. 129}
-\]
+$$
 
 The formulas require the regularity/nondegeneracy conditions stated in the surrounding text.
 
@@ -98,14 +98,14 @@ The formulas require the regularity/nondegeneracy conditions stated in the surro
 
 From §2.5, printed p. 72:
 
-\[
+$$
 \frac{dT}{ds}=\kappa N,
 \qquad
 \frac{dN}{ds}=\tau B-\kappa T,
 \qquad
 \frac{dB}{ds}=-\tau N.
 \tag{Sochi Eqs. 136–138}
-\]
+$$
 
 The source explicitly notes that torsion sign convention varies in the literature. Reproductions must therefore preserve or document the convention.
 
@@ -113,13 +113,13 @@ The source explicitly notes that torsion sign convention varies in the literatur
 
 From §5.7:
 
-\[
+$$
 \frac{d^2u^\alpha}{ds^2}
 +\Gamma^\alpha_{\beta\gamma}
 \frac{du^\beta}{ds}
 \frac{du^\gamma}{ds}=0.
 \tag{Sochi Eq. 418}
-\]
+$$
 
 The text emphasizes that this is an intrinsic condition because the Christoffel symbols depend on the surface metric.
 
@@ -127,18 +127,18 @@ The text emphasizes that this is an intrinsic condition because the Christoffel 
 
 Chapter 7 gives metric compatibility and covariant/absolute differentiation. In particular,
 
-\[
+$$
 a_{\alpha\beta\mid\gamma}=0
 \tag{Sochi Eq. 441}
-\]
+$$
 
 and for a contravariant surface vector,
 
-\[
+$$
 A^\alpha{}_{;\beta}=\frac{\partial A^\alpha}{\partial u^\beta}
 +\Gamma^\alpha_{\gamma\beta}A^\gamma.
 \tag{Sochi Eq. 450}
-\]
+$$
 
 See printed pp. 233–238.
 
@@ -146,17 +146,17 @@ See printed pp. 233–238.
 
 The source defines, for polyhedral surfaces,
 
-\[
+$$
 \chi=V+F-E,
 \tag{Sochi Eq. 46}
-\]
+$$
 
 and for orientable genus `g`,
 
-\[
+$$
 \chi=2(1-g).
 \tag{Sochi Eq. 47}
-\]
+$$
 
 These are used later with Gauss–Bonnet. See printed pp. 27–28 and §4.8.
 

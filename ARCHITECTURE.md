@@ -45,23 +45,23 @@ No stable mathematical artifact is complete unless it records:
 
 The shared V1 demonstrator is the standard torus
 
-\[
+$$
 X(u,v)=((R+r\cos v)\cos u,(R+r\cos v)\sin u,r\sin v),
 \qquad R>r>0.
-\]
+$$
 
 For this parameterization,
 
-\[
+$$
 E=(R+r\cos v)^2,\quad F=0,\quad G=r^2,
-\]
+$$
 
 and
 
-\[
+$$
 K(v)=\frac{\cos v}{r(R+r\cos v)}.
-\]
+$$
 
-The Gauss--Bonnet integral over the torus should be zero because \(\chi(T^2)=0\).
+The Gauss--Bonnet integral over the torus should be zero because $\chi(T^2)=0$.
 
-A second demonstrator couples mathematics to engineering through a four-sector state \(x=(P,W,T,SW)\), a time-dependent coupling matrix, hazard forcing, and a viable set.
+A second demonstrator couples mathematics to engineering through a four-sector state $x=(P,W,T,SW)$, a time-dependent coupling matrix, hazard forcing, and a viable set.

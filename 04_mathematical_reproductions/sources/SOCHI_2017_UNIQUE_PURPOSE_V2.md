@@ -8,11 +8,11 @@ A reproduction is accepted only when the result is computed from a declared impl
 
 General error measures:
 
-\[
+$$
 E_{abs}=|\hat y-y_*|,
 \qquad
 E_{rel}=\frac{|\hat y-y_*|}{\max(|y_*|,\epsilon)}.
-\]
+$$
 
 For vector/tensor outputs use a declared norm. For trajectories use residual, invariant drift, and/or endpoint error.
 
@@ -34,17 +34,17 @@ Acceptance: residual below a scale-aware floating-point tolerance at determinist
 
 For
 
-\[
+$$
 r(t)=(a\cos t,a\sin t,bt),
-\]
+$$
 
 compute `kappa` and `tau` from derivative definitions (Sochi Eqs. 126 and 129), then compare with the closed forms
 
-\[
+$$
 \kappa=\frac{|a|}{a^2+b^2},
 \qquad
 \tau=\frac{b}{a^2+b^2}.
-\]
+$$
 
 The implementation computing derivatives must not call the closed-form oracle.
 
@@ -52,13 +52,13 @@ The implementation computing derivatives must not call the closed-form oracle.
 
 Numerically or symbolically construct `T,N,B` for a regular curve and check:
 
-\[
+$$
 T\cdot N=T\cdot B=N\cdot B=0,
-\]
+$$
 
-\[
+$$
 \|T\|=\|N\|=\|B\|=1,
-\]
+$$
 
 plus residuals of Eqs. (136)-(138). Record the torsion sign convention.
 
@@ -66,15 +66,15 @@ plus residuals of Eqs. (136)-(138). Record the torsion sign convention.
 
 For a parametric surface compute
 
-\[
+$$
 a_{\alpha\beta}=E_\alpha\cdot E_\beta
-\]
+$$
 
 and verify
 
-\[
+$$
 a^{\alpha\gamma}a_{\gamma\beta}=\delta^\alpha_\beta.
-\]
+$$
 
 Also check positive definiteness away from singular points.
 
@@ -89,9 +89,9 @@ Useful benchmark surfaces: plane, sphere, cylinder, torus.
 At the same points compute `K` using at least two independent routes, e.g.:
 
 1. second fundamental form:
-   \[
+   $$
    K=(eg-f^2)/(EG-F^2);
-   \]
+   $$
 2. shape-operator determinant;
 3. intrinsic Riemann tensor route;
 4. metric-only expression where numerically stable.
@@ -102,11 +102,11 @@ Agreement is required within a declared tolerance.
 
 Solve the generalized eigenproblem of Eq. (346), then verify
 
-\[
+$$
 \kappa_1+\kappa_2=2H,
 \qquad
 \kappa_1\kappa_2=K.
-\]
+$$
 
 Under normal reversal, verify `kappa_i -> -kappa_i`, `H -> -H`, while `K` is unchanged.
 
@@ -124,9 +124,9 @@ This reproduction demonstrates intrinsic versus extrinsic geometry without relyi
 
 Numerically integrate `K dA` and compare with the topological oracle:
 
-\[
+$$
 \iint_S K\,dA=2\pi\chi.
-\]
+$$
 
 Minimum benchmarks:
 

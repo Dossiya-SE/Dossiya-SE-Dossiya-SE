@@ -37,13 +37,13 @@ A plotting success is never a verification gate.
 
 At each valid Frenet point:
 
-\[
+$$
 T\cdot N=T\cdot B=N\cdot B=0,
 \quad
 \|T\|=\|N\|=\|B\|=1,
 \quad
 T\times N=B
-\]
+$$
 
 under the source's right-handed convention.
 
@@ -53,11 +53,11 @@ For a helix use the analytic `kappa,tau` values as oracles. For a planar curve v
 
 For a chart `r(u,v)` verify both equivalent conditions numerically:
 
-\[
+$$
 \|E_1\times E_2\|>0,
 \qquad
 \det(a_{\alpha\beta})=EG-F^2>0.
-\]
+$$
 
 Near zero, report conditioning instead of converting a coordinate singularity into a false geometric statement.
 
@@ -65,9 +65,9 @@ Near zero, report conditioning instead of converting a coordinate singularity in
 
 Verify:
 
-\[
+$$
 a^{\alpha\gamma}a_{\gamma\beta}=\delta^\alpha_\beta
-\]
+$$
 
 and metric compatibility from Chapter 7. A Christoffel implementation derived from a symbolic metric should also be cross-checked at sampled points with finite differences or a second CAS/library where feasible.
 
@@ -75,20 +75,20 @@ and metric compatibility from Chapter 7. A Christoffel implementation derived fr
 
 Gaussian curvature should be compared by independent routes:
 
-\[
+$$
 K=\frac{eg-f^2}{EG-F^2},
 \qquad
 K=\det(b^\alpha{}_{\beta}),
 \qquad
 K=\frac{R_{1212}}{a}.
-\]
+$$
 
 Mean curvature should satisfy:
 
-\[
+$$
 H=\frac12(\kappa_1+\kappa_2)
 =\frac12\operatorname{tr}(b^\alpha{}_{\beta}).
-\]
+$$
 
 Normal reversal oracle:
 
@@ -104,9 +104,9 @@ K -> K
 
 The source's Codazzi-Mainardi equation
 
-\[
+$$
 b_{\alpha\beta;\gamma}=b_{\alpha\gamma;\beta}
-\]
+$$
 
 is an executable residual oracle. Gauss-Codazzi should also be checked when reconstructing a surface from fundamental-form data.
 
@@ -114,9 +114,9 @@ is an executable residual oracle. Gauss-Codazzi should also be checked when reco
 
 For compact orientable benchmark surfaces:
 
-\[
+$$
 R_{GB}=\left|\iint_S K\,dA-2\pi\chi\right|.
-\]
+$$
 
 Report `R_GB` under increasing quadrature/mesh resolution. One low residual at one resolution is insufficient evidence of convergence.
 
@@ -124,16 +124,16 @@ Report `R_GB` under increasing quadrature/mesh resolution. One low residual at o
 
 For integrated state `(u^alpha,v^alpha)`:
 
-\[
+$$
 R^\alpha_g
 =\dot v^\alpha+\Gamma^\alpha_{\beta\gamma}v^\beta v^\gamma.
-\]
+$$
 
 Also monitor metric speed
 
-\[
+$$
 q(s)=a_{\alpha\beta}v^\alpha v^\beta.
-\]
+$$
 
 For arc-length parameterization, `q` should remain approximately 1; for affine parameterization it should remain constant under the relevant assumptions.
 

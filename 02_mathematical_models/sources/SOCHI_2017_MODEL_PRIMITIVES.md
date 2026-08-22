@@ -8,10 +8,10 @@ Source anchor: Chapter 2, especially §§2.1–2.3, printed pp. 55–70.
 
 A parameterized curve is represented as
 
-\[
+$$
 C:I\subset\mathbb R\to\mathbb R^n,
 \qquad t\mapsto r(t).
-\]
+$$
 
 A model instance must record:
 
@@ -30,20 +30,20 @@ Source anchor: §§2.2 and 2.5, printed pp. 60–73.
 
 Define the moving state
 
-\[
+$$
 Y(s)=\begin{bmatrix}T(s)\\N(s)\\B(s)\end{bmatrix}.
-\]
+$$
 
 Then the source Frenet–Serret system is a first-order matrix ODE
 
-\[
+$$
 Y'(s)=
 \begin{bmatrix}
 0&\kappa&0\\
 -\kappa&0&\tau\\
 0&-\tau&0
 \end{bmatrix}Y(s).
-\]
+$$
 
 This is a reusable model primitive for reconstruction of a curve from curvature/torsion data, subject to the source's regularity and sign-convention conditions.
 
@@ -53,10 +53,10 @@ Source anchors: §1.4.3 and Chapter 3, printed pp. 34–36 and 83–131.
 
 Represent a patch as
 
-\[
+$$
 X:U\subset\mathbb R^2\to\mathbb R^3,
 \qquad (u,v)\mapsto X(u,v).
-\]
+$$
 
 Model contract:
 
@@ -73,13 +73,13 @@ Source anchors: §§1.3.2, 1.4.4, 3.3, and 3.5.
 
 The metric model is
 
-\[
+$$
 G(u,v)=
 \begin{bmatrix}
 E&F\\F&G
 \end{bmatrix},
 \qquad EG-F^2>0
-\]
+$$
 
 on a regular Riemannian surface patch.
 
@@ -101,16 +101,16 @@ Source anchor: §5.7, especially Sochi Eq. (418).
 
 State:
 
-\[
+$$
 y=(u^1,u^2,\dot u^1,\dot u^2).
-\]
+$$
 
 Dynamics:
 
-\[
+$$
 \ddot u^\alpha=-\Gamma^\alpha_{\beta\gamma}(u)
 \dot u^\beta\dot u^\gamma.
-\]
+$$
 
 Required model inputs:
 
@@ -129,9 +129,9 @@ Source anchors: Chapter 4, especially §§4.4–4.9, printed pp. 152–181.
 
 For a regular surface, a local curvature state may be represented as
 
-\[
+$$
 \mathcal K(P)=(\kappa_1,\kappa_2,K,H),
-\]
+$$
 
 where `\kappa_1,\kappa_2` are principal curvatures, `K` is Gaussian curvature, and `H` is mean curvature.
 
@@ -143,9 +143,9 @@ Source anchor: §2.7 and Chapter 7.
 
 For a surface vector field `A^alpha` along `u^beta(t)`, parallel propagation is modeled by vanishing absolute derivative:
 
-\[
+$$
 \frac{\delta A^\alpha}{\delta t}=0.
-\]
+$$
 
 This yields a path-dependent transport model on curved surfaces. Path dependence is part of the mathematics, not numerical noise.
 
@@ -155,9 +155,9 @@ Source anchors: §1.4.1 and §4.8.
 
 For suitable compact orientable closed surfaces, the model connects:
 
-\[
+$$
 \chi=2(1-g)
-\]
+$$
 
 with the global Gauss–Bonnet integral. This is the foundation for topology-aware verification, not a license to infer topology from an arbitrary sampled mesh without checking hypotheses.
 

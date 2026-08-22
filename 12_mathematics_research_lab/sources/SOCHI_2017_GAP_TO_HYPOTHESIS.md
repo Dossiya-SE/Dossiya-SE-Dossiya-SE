@@ -10,11 +10,11 @@
 
 Candidate hypothesis:
 
-\[
+$$
 |K_{\partial V}(x)|\uparrow
 \quad\Longrightarrow\quad
 \text{local viability sensitivity may increase}
-\]
+$$
 
 under a specifically defined metric and perturbation model.
 
@@ -54,10 +54,10 @@ Test:
 
 Possible observables:
 
-\[
+$$
 \chi(\mathcal V(\lambda)),\qquad
 \int_{\partial\mathcal V(\lambda)}K\,dA,
-\]
+$$
 
 where `λ` is a stress/control parameter and theorem hypotheses are checked before invoking Gauss–Bonnet.
 
@@ -79,10 +79,10 @@ For a scaled state trajectory `x(t)` in dimension `n>=3`, test whether geometric
 
 Candidate object:
 
-\[
+$$
 \mathcal T_\epsilon(\gamma)
 =\{x:\inf_t d_g(x,\gamma(t))\le\epsilon\}.
-\]
+$$
 
 This definition is an extension; only the differential-geometric primitives come from Sochi.
 
@@ -110,10 +110,10 @@ Planned stacks:
 
 Measure:
 
-\[
+$$
 E_{cross}=
 \frac{\|I_A-I_B\|}{\max(1,\|I_A\|,\|I_B\|)}
-\]
+$$
 
 for invariant quantity `I` after convention alignment.
 

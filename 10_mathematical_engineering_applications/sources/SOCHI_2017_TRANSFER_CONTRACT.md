@@ -6,13 +6,13 @@
 
 A source-grounded engineering artifact must distinguish:
 
-\[
+$$
 \boxed{
 \text{geometric mathematics}
 \neq
 \text{engineering meaning}
 }
-\]
+$$
 
 Sochi (2017) supplies mathematical definitions, equations, geometric objects, and theorem anchors. It does **not** establish infrastructure-resilience, energy-system, climate, reliability, or sustainability interpretations.
 
@@ -32,17 +32,17 @@ Every engineering use must document five layers:
 
 Mathematical source:
 
-\[
+$$
 r(t)\in\mathbb R^n
-\]
+$$
 
 with tangent, curvature, and higher-order change measures (Sochi, Chapter 2).
 
 Engineering candidate:
 
-\[
+$$
 x(t)=[P,W,T,SW,\ldots]^\top
-\]
+$$
 
 as a system-state trajectory.
 
@@ -62,9 +62,9 @@ Mathematical source: surface metric tensor, intrinsic distance, geodesics (Sochi
 
 Engineering candidate:
 
-\[
+$$
 g_{ij}(x)
-\]
+$$
 
 encodes locally varying transition difficulty/cost.
 
