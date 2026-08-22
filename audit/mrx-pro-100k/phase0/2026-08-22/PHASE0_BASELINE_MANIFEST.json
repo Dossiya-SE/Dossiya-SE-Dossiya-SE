@@ -1,0 +1,24 @@
+{
+  "audit_timestamp_utc": "2026-08-22T00:50:06Z",
+  "deterministic_perfection_gate": "NOT_SATISFIED",
+  "files": {
+    "ACCOUNT_INVENTORY.json": "756f059af7bdf548dd3b83b4280836de163142e659aed1a229944194fbc74e47",
+    "AUDIT_TIMESTAMP_UTC.txt": "70d3a8ee3b14f1a144665dbc498d33bacd49d1d33f7ecf2c369029e9399fe4a0",
+    "BRANCH_MATRIX.csv": "9c1c2617e1e5dec254b7c36e001ea989f1b772acdcf095e7d7a0bb35f21e5793",
+    "CANONICAL_ASSET_MATRIX.csv": "24b67c0d155ae8d4151fd20253f1b8d15bd694132fb8142cd3498a9fb6071691",
+    "CI_STATUS_MATRIX.csv": "f2b8e29692709a330b8ed56ac2345a8a7130f3660ba0b9e6e512c076d95c8968",
+    "OPEN_PR_MATRIX.csv": "6892b658844d40ed4175bf68619d0366a6dd337fb49a7a811a6e2e6f627cba22",
+    "PHASE0_FINDINGS.md": "7fa2c4cc975eb4b71bada9b8008424ede99a5b5cad4e410bf235ee3429a4061b",
+    "REPOSITORY_MATURITY_MATRIX.csv": "506294b86dfc29cf6fa07957d2c8c4ca8058851a35c7ea0c9ca11ae1d3ed7597",
+    "REPOSITORY_STATE_MATRIX.csv": "7f66903f33fa004799a81c8c29b58f95bd2530ef2f5688dbc9acf5bc0eac79ef"
+  },
+  "hash_algorithm": "SHA-256",
+  "monte_carlo_100k_authorized": false,
+  "owner": "Dossiya-SE",
+  "phase": "PHASE_0_BASELINE",
+  "protocol": "MRX-PRO-100K-V1",
+  "reason_100k_not_authorized": "Protocol requires deterministic implementation gates to pass before the 100,000-trial portfolio-quality audit.",
+  "repository_count": 14,
+  "status": "FROZEN_LOCALLY_BEFORE_ANY_GITHUB_WRITE",
+  "unknown_policy": "Unverified fields remain UNKNOWN/NOT_QUERIED rather than inferred."
+}

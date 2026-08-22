@@ -1,0 +1,7 @@
+{
+  "frozen_at_utc": "2026-08-22T00:50:06Z",
+  "hash_list_file": "BASELINE_SHA256SUMS.txt",
+  "hash_list_sha256": "d707f641ba6ca87c75255341e2145a0f790602c24d912a7795ddd93cb24d36dd",
+  "manifest_file": "PHASE0_BASELINE_MANIFEST.json",
+  "manifest_sha256": "81200905cd5a86b2bf6bb5cbbd7b3de74e9768dcf9279304c471de7111dfdf23"
+}
