@@ -1,0 +1,151 @@
+{
+  "audit_timestamp_utc": "2026-08-22T03:11:31Z",
+  "authenticated_login": "Dossiya-SE",
+  "owner": "Dossiya-SE",
+  "phase": "PHASE_0_LIVE_BASELINE",
+  "protocol": "DOSSYA_MRX_BENCHMARKED_100K_V2",
+  "repositories": [
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive Chatbot Integration Visual V4",
+      "head_sha": "7c3f861068c9cf12a935074b8dc323d8543e8a6a",
+      "head_time": "2026-08-21T23:35:43Z",
+      "repo": "Dossiya-SE/chatbot",
+      "repo_class": "G_learning_artifact",
+      "size_kb": 19,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive Decision-Support Evidence Visual V4",
+      "head_sha": "4dec629395539b8b983b7a49c534eb1585f2264e",
+      "head_time": "2026-08-21T23:44:11Z",
+      "repo": "Dossiya-SE/Kudo-IA",
+      "repo_class": "F_prototype",
+      "size_kb": 353,
+      "visibility": "private"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive Solar + STEM Systems Visual V4",
+      "head_sha": "f94e7ac66b8298d6ac38b26c4646e9cbcf3cf8ea",
+      "head_time": "2026-08-21T23:34:50Z",
+      "repo": "Dossiya-SE/testasu",
+      "repo_class": "F_prototype",
+      "size_kb": 21070,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive ML Evidence Pipeline V4",
+      "head_sha": "6491d041dfc645127ae017abfc64a513cdcb256c",
+      "head_time": "2026-08-21T23:34:35Z",
+      "repo": "Dossiya-SE/Data-Science-an-Machine-Learning",
+      "repo_class": "G_learning_artifact",
+      "size_kb": 26,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive EDA Mathematical Map V4",
+      "head_sha": "cff7874559f82871d388f0e310bcb9ace98680bb",
+      "head_time": "2026-08-21T23:10:22Z",
+      "repo": "Dossiya-SE/Python-for-rapid-engineering-solution",
+      "repo_class": "D_quantitative_study",
+      "size_kb": 3636,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive Econometric Model-Risk Atlas V4",
+      "head_sha": "82eec26bb7e6bf054f4ff05ec22ec6430a675778",
+      "head_time": "2026-08-21T23:10:32Z",
+      "repo": "Dossiya-SE/dossiyadakou-mac-project",
+      "repo_class": "D_quantitative_study",
+      "size_kb": 1620,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Merge PR #13: Close Adaptive Mathematical Visual Migration V4",
+      "head_sha": "4b5ed0c9824f9148c6bdf589f160ace38761ee44",
+      "head_time": "2026-08-22T00:54:13Z",
+      "repo": "Dossiya-SE/Dossiya-SE",
+      "repo_class": "B_research_infrastructure",
+      "size_kb": 389,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Merge PR #12: DG-LC-001 verified metric geometry engine",
+      "head_sha": "81a449d6bfdcb63384810a607d613d5b488f122a",
+      "head_time": "2026-08-22T01:09:51Z",
+      "repo": "Dossiya-SE/Dossiya-SE-Dossiya-SE",
+      "repo_class": "B_research_infrastructure",
+      "size_kb": 145,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive Portfolio Theme V4",
+      "head_sha": "0ebcbb69586dc2b1d910ca1ff9d3751811ac996e",
+      "head_time": "2026-08-21T23:10:03Z",
+      "repo": "Dossiya-SE/dossiya-se.github.io",
+      "repo_class": "B_research_infrastructure",
+      "size_kb": 153,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": true,
+      "head_message": "Adaptive Africa Energy Dignity Systems Visual V4",
+      "head_sha": "4f4987aa1cefc0fc302af9d3a40d3306ef7d5616",
+      "head_time": "2026-08-21T23:10:16Z",
+      "repo": "Dossiya-SE/africa-energy-dignity",
+      "repo_class": "C_engineering_system",
+      "size_kb": 955,
+      "visibility": "public"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Add NUS Frozen-37 agentic evidence reference",
+      "head_sha": "35e1c6f7aae06195007c856c8a3ad5978ac9ae77",
+      "head_time": "2026-08-22T01:52:10Z",
+      "repo": "Dossiya-SE/infrastructure-interface-resilience-review",
+      "repo_class": "A_research",
+      "size_kb": 932,
+      "visibility": "private"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Clarify WQU-120 on-demand canonical build pointer",
+      "head_sha": "aec5447a23f8bc156f5b68ea70cf1343f6c836a8",
+      "head_time": "2026-08-22T02:23:24Z",
+      "repo": "Dossiya-SE/Dossiya-SE-mscfe-quantitative-finance-lab",
+      "repo_class": "D_quantitative_study",
+      "size_kb": 523,
+      "visibility": "private"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive Secondary Thesis Math Art V4",
+      "head_sha": "db63484eba5fc693ddceed76e0fe39844ce2ac35",
+      "head_time": "2026-08-21T23:52:36Z",
+      "repo": "Dossiya-SE/MSE-thesis",
+      "repo_class": "A_research",
+      "size_kb": 1309,
+      "visibility": "private"
+    },
+    {
+      "code_search_indexed": false,
+      "head_message": "Adaptive RGAN Mathematical Systems Visual V4",
+      "head_sha": "90ce4fad59d12dda1e1fe7607cece7b7afb773b8",
+      "head_time": "2026-08-21T23:46:59Z",
+      "repo": "Dossiya-SE/responsible-gold-access-network-rgan",
+      "repo_class": "F_prototype",
+      "size_kb": 116145,
+      "visibility": "private"
+    }
+  ],
+  "repository_count": 14,
+  "unknown_policy": "Fields not directly re-queried in this V2 baseline are UNKNOWN/NOT_QUERIED and are not inferred from older audits."
+}

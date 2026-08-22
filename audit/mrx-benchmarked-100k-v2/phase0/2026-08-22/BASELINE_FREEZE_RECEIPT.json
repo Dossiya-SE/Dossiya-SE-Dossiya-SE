@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-08-22T03:11:31Z",
+  "github_mutation_before_freeze": false,
+  "hash_list_file": "BASELINE_SHA256SUMS.txt",
+  "hash_list_sha256": "0d0035c653bbe728d30b56c9084421cc62863175fc5fad7346cd45d9444d7e40",
+  "manifest_file": "BASELINE_MANIFEST.json",
+  "manifest_sha256": "3d0105f40b588ee1d490cf83dff2fc789028dffbd56bef39b590799c3ca25e5d",
+  "note": "V2 baseline package was generated locally from live connector observations before any V2 GitHub mutation.",
+  "protocol": "DOSSYA_MRX_BENCHMARKED_100K_V2"
+}
