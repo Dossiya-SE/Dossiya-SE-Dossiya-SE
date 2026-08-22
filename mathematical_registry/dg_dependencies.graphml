@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="evidence" for="node" attr.name="evidence_state" attr.type="string"/>
+  <key id="proof" for="node" attr.name="proof_status" attr.type="string"/>
+  <key id="maturity" for="node" attr.name="maturity" attr.type="string"/>
+  <graph id="DG-DAG-001" edgedefault="directed">
+    <node id="DG00"><data key="name">Foundations</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG01"><data key="name">Topological manifolds</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG02"><data key="name">Smooth structures</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG03"><data key="name">Charts and atlases</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG04"><data key="name">Tangent spaces</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG05"><data key="name">Cotangent spaces</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG06"><data key="name">Vector fields</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG07"><data key="name">Tensor algebra</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG08"><data key="name">Differential forms</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG09"><data key="name">Exterior derivative</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG10"><data key="name">Pullback and pushforward</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG11"><data key="name">Riemannian metrics</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG12"><data key="name">Levi-Civita connection</data><data key="evidence">V</data><data key="proof">PR2</data><data key="maturity">P3</data></node>
+    <node id="DG13"><data key="name">Covariant derivative</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG14"><data key="name">Parallel transport</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG15"><data key="name">Geodesics</data><data key="evidence">C</data><data key="proof">PR1</data><data key="maturity">P2</data></node>
+    <node id="DG16"><data key="name">Exponential map</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG17"><data key="name">Normal coordinates</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG18"><data key="name">Riemann curvature tensor</data><data key="evidence">V</data><data key="proof">PR1</data><data key="maturity">P3</data></node>
+    <node id="DG19"><data key="name">Sectional curvature</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG20"><data key="name">Ricci curvature</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG21"><data key="name">Scalar curvature</data><data key="evidence">V</data><data key="proof">PR1</data><data key="maturity">P3</data></node>
+    <node id="DG22"><data key="name">Jacobi fields</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG23"><data key="name">Conjugate points</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG24"><data key="name">First variation</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG25"><data key="name">Second variation</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG26"><data key="name">Embeddings and immersions</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG27"><data key="name">First fundamental form</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG28"><data key="name">Second fundamental form</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG29"><data key="name">Gauss map</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG30"><data key="name">Shape operator</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG31"><data key="name">Principal directions</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG32"><data key="name">Principal curvatures</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG33"><data key="name">Gaussian curvature</data><data key="evidence">C</data><data key="proof">PR1</data><data key="maturity">P2</data></node>
+    <node id="DG34"><data key="name">Mean curvature</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG35"><data key="name">Gauss equations</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG36"><data key="name">Codazzi equations</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG37"><data key="name">Theorema Egregium</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG38"><data key="name">Gauss-Bonnet</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG39"><data key="name">Laplace-Beltrami operator</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG40"><data key="name">Minimal surfaces</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG41"><data key="name">Level-set geometry</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <node id="DG42"><data key="name">Nonsmooth geometry</data><data key="evidence">H</data><data key="proof">PR0</data><data key="maturity">P0</data></node>
+    <node id="DG43"><data key="name">Numerical differential geometry</data><data key="evidence">S</data><data key="proof">PR1</data><data key="maturity">P1</data></node>
+    <edge id="e000" source="DG00" target="DG01"/>
+    <edge id="e001" source="DG00" target="DG42"/>
+    <edge id="e002" source="DG01" target="DG03"/>
+    <edge id="e003" source="DG01" target="DG38"/>
+    <edge id="e004" source="DG02" target="DG04"/>
+    <edge id="e005" source="DG02" target="DG06"/>
+    <edge id="e006" source="DG02" target="DG08"/>
+    <edge id="e007" source="DG02" target="DG10"/>
+    <edge id="e008" source="DG02" target="DG11"/>
+    <edge id="e009" source="DG02" target="DG26"/>
+    <edge id="e010" source="DG02" target="DG41"/>
+    <edge id="e011" source="DG03" target="DG02"/>
+    <edge id="e012" source="DG03" target="DG04"/>
+    <edge id="e013" source="DG04" target="DG05"/>
+    <edge id="e014" source="DG04" target="DG06"/>
+    <edge id="e015" source="DG04" target="DG07"/>
+    <edge id="e016" source="DG04" target="DG10"/>
+    <edge id="e017" source="DG04" target="DG16"/>
+    <edge id="e018" source="DG04" target="DG29"/>
+    <edge id="e019" source="DG04" target="DG41"/>
+    <edge id="e020" source="DG05" target="DG07"/>
+    <edge id="e021" source="DG05" target="DG08"/>
+    <edge id="e022" source="DG05" target="DG10"/>
+    <edge id="e023" source="DG06" target="DG13"/>
+    <edge id="e024" source="DG07" target="DG08"/>
+    <edge id="e025" source="DG07" target="DG11"/>
+    <edge id="e026" source="DG07" target="DG13"/>
+    <edge id="e027" source="DG08" target="DG09"/>
+    <edge id="e028" source="DG08" target="DG38"/>
+    <edge id="e029" source="DG09" target="DG38"/>
+    <edge id="e030" source="DG09" target="DG39"/>
+    <edge id="e031" source="DG10" target="DG26"/>
+    <edge id="e032" source="DG10" target="DG27"/>
+    <edge id="e033" source="DG10" target="DG41"/>
+    <edge id="e034" source="DG11" target="DG12"/>
+    <edge id="e035" source="DG11" target="DG17"/>
+    <edge id="e036" source="DG11" target="DG19"/>
+    <edge id="e037" source="DG11" target="DG20"/>
+    <edge id="e038" source="DG11" target="DG21"/>
+    <edge id="e039" source="DG11" target="DG24"/>
+    <edge id="e040" source="DG11" target="DG27"/>
+    <edge id="e041" source="DG11" target="DG39"/>
+    <edge id="e042" source="DG11" target="DG41"/>
+    <edge id="e043" source="DG11" target="DG43"/>
+    <edge id="e044" source="DG12" target="DG14"/>
+    <edge id="e045" source="DG12" target="DG15"/>
+    <edge id="e046" source="DG12" target="DG18"/>
+    <edge id="e047" source="DG12" target="DG36"/>
+    <edge id="e048" source="DG12" target="DG43"/>
+    <edge id="e049" source="DG13" target="DG12"/>
+    <edge id="e050" source="DG13" target="DG14"/>
+    <edge id="e051" source="DG13" target="DG15"/>
+    <edge id="e052" source="DG13" target="DG18"/>
+    <edge id="e053" source="DG13" target="DG22"/>
+    <edge id="e054" source="DG13" target="DG36"/>
+    <edge id="e055" source="DG15" target="DG16"/>
+    <edge id="e056" source="DG15" target="DG22"/>
+    <edge id="e057" source="DG15" target="DG24"/>
+    <edge id="e058" source="DG16" target="DG17"/>
+    <edge id="e059" source="DG16" target="DG23"/>
+    <edge id="e060" source="DG18" target="DG19"/>
+    <edge id="e061" source="DG18" target="DG20"/>
+    <edge id="e062" source="DG18" target="DG22"/>
+    <edge id="e063" source="DG18" target="DG25"/>
+    <edge id="e064" source="DG18" target="DG35"/>
+    <edge id="e065" source="DG18" target="DG43"/>
+    <edge id="e066" source="DG19" target="DG37"/>
+    <edge id="e067" source="DG20" target="DG21"/>
+    <edge id="e068" source="DG22" target="DG23"/>
+    <edge id="e069" source="DG22" target="DG25"/>
+    <edge id="e070" source="DG24" target="DG25"/>
+    <edge id="e071" source="DG26" target="DG27"/>
+    <edge id="e072" source="DG26" target="DG29"/>
+    <edge id="e073" source="DG26" target="DG40"/>
+    <edge id="e074" source="DG26" target="DG43"/>
+    <edge id="e075" source="DG27" target="DG28"/>
+    <edge id="e076" source="DG27" target="DG29"/>
+    <edge id="e077" source="DG27" target="DG30"/>
+    <edge id="e078" source="DG27" target="DG35"/>
+    <edge id="e079" source="DG28" target="DG30"/>
+    <edge id="e080" source="DG28" target="DG35"/>
+    <edge id="e081" source="DG28" target="DG36"/>
+    <edge id="e082" source="DG28" target="DG40"/>
+    <edge id="e083" source="DG29" target="DG28"/>
+    <edge id="e084" source="DG30" target="DG31"/>
+    <edge id="e085" source="DG30" target="DG32"/>
+    <edge id="e086" source="DG30" target="DG35"/>
+    <edge id="e087" source="DG32" target="DG33"/>
+    <edge id="e088" source="DG32" target="DG34"/>
+    <edge id="e089" source="DG33" target="DG37"/>
+    <edge id="e090" source="DG33" target="DG38"/>
+    <edge id="e091" source="DG34" target="DG40"/>
+    <edge id="e092" source="DG35" target="DG37"/>
+    <edge id="e093" source="DG39" target="DG43"/>
+    <edge id="e094" source="DG41" target="DG42"/>
+    <edge id="e095" source="DG41" target="DG43"/>
+    <edge id="e096" source="DG42" target="DG43"/>
+  </graph>
+</graphml>

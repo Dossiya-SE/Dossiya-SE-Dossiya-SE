@@ -1,0 +1,85 @@
+{
+  "sources": [
+    {
+      "source_id": "SRC-LEE-ISM-OFFICIAL",
+      "title": "John M. Lee, Introduction to Smooth Manifolds, 2nd ed.",
+      "tier": "A",
+      "resource_type": "authoritative_monograph",
+      "access": "official author-hosted front matter/sample material",
+      "url": "https://sites.math.washington.edu/~lee/Books/ISM/",
+      "use": "smooth manifolds, charts, tangent/cotangent structures, tensors, differential forms, immersions/embeddings",
+      "theorem_locator_policy": "Exact theorem/page locator required before PR2+ claims."
+    },
+    {
+      "source_id": "SRC-LEE-RM-OFFICIAL",
+      "title": "John M. Lee, Introduction to Riemannian Manifolds, 2nd ed.",
+      "tier": "A",
+      "resource_type": "authoritative_monograph",
+      "access": "official author page/front matter/corrections",
+      "url": "https://sites.math.washington.edu/~lee/Books/RM/",
+      "use": "Riemannian metrics, connections, geodesics, curvature, variation, Jacobi fields",
+      "theorem_locator_policy": "Exact theorem/page locator required before PR2+ claims."
+    },
+    {
+      "source_id": "SRC-STERNBERG-SRGR",
+      "title": "Shlomo Sternberg, Semi-Riemann Geometry and General Relativity",
+      "tier": "C",
+      "resource_type": "university_lecture_notes",
+      "access": "open Harvard-hosted PDF",
+      "url": "https://people.math.harvard.edu/~shlomo/docs/semi_riemannian_geometry.pdf",
+      "use": "Levi-Civita existence/uniqueness, Koszul formula, coordinate Christoffel derivation",
+      "theorem_locator_policy": "Chapter 3, §§3.8–3.9, pp. 65–67 used by DG-LC-001."
+    },
+    {
+      "source_id": "SRC-MIT-18966-2005",
+      "title": "MIT 18.966 Geometry of Manifolds, Spring 2005 lecture notes",
+      "tier": "C",
+      "resource_type": "university_lecture_notes",
+      "access": "open MIT-hosted PDF",
+      "url": "https://math.mit.edu/~mrowka/Math966notesSp05.pdf",
+      "use": "metrics, Levi-Civita connection, moving frames, curvature",
+      "theorem_locator_policy": "DG-LC-001 uses Lecture 1 §§1.2–1.3, pp. 3–5; later objects require exact locators."
+    },
+    {
+      "source_id": "SRC-CRANE-DDG",
+      "title": "Keenan Crane, Discrete Differential Geometry: An Applied Introduction",
+      "tier": "C",
+      "resource_type": "university_course_notes",
+      "access": "open CMU course notes",
+      "url": "https://www.cs.cmu.edu/~kmcrane/Projects/DDG/",
+      "use": "discrete curvature, exterior calculus, geodesic distance, finite elements, numerical/discrete differential geometry",
+      "theorem_locator_policy": "Use exact section/exercise locator before elevating to source-grounded theorem reproduction."
+    },
+    {
+      "source_id": "SOCHI-DG-2017-UPLOADED",
+      "title": "Taha Sochi, Introduction to Differential Geometry of Space Curves and Surfaces",
+      "tier": "A",
+      "resource_type": "uploaded_monograph",
+      "access": "repository-controlled source record; copyrighted source not redistributed unless permitted",
+      "url": null,
+      "use": "space curves and surfaces; metric, shape operator, curvatures, Gauss–Bonnet, geodesics, Laplace–Beltrami",
+      "binary_sha256": "75c340af6f6086b8aa4d9884c2911fd2e5f0250d6f7ccacfb158c9475b1dd4ad",
+      "theorem_locator_policy": "Use the repository's verified equation/page registry."
+    },
+    {
+      "source_id": "SRC-GEOMSTATS-DOCS",
+      "title": "Geomstats latest documentation",
+      "tier": "D",
+      "resource_type": "official_software_documentation",
+      "access": "open web documentation",
+      "url": "https://geomstats.github.io/api/geomstats.geometry.html",
+      "use": "benchmark software architecture for metric matrices, Christoffel symbols, exp/log and parallel transport",
+      "theorem_locator_policy": "Software behavior reference only; not a sole theorem authority."
+    },
+    {
+      "source_id": "SRC-JULIAMANIFOLDS-DOCS",
+      "title": "Manifolds.jl stable documentation",
+      "tier": "D",
+      "resource_type": "official_software_documentation",
+      "access": "open web documentation",
+      "url": "https://juliamanifolds.github.io/Manifolds.jl/stable/tutorials/getstarted/",
+      "use": "benchmark software architecture for metric-dependent manifold operations, exp/log and geodesics",
+      "theorem_locator_policy": "Software behavior reference only; not a sole theorem authority."
+    }
+  ]
+}
