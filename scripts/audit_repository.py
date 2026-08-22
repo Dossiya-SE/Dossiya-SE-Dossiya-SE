@@ -1,6 +1,8 @@
-"""Structural audit for the twelve-module bootstrap."""
+"""Structural and mathematical-registry audit for the twelve-module ecosystem."""
 
 from pathlib import Path
+
+from validate_dg_registry import RegistryError, validate_repository_registry
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
@@ -22,4 +24,10 @@ missing = [p for p in REQUIRED if not (ROOT / p).is_dir()]
 if missing:
     raise SystemExit(f"Missing required modules: {missing}")
 
+try:
+    order = validate_repository_registry()
+except (RegistryError, FileNotFoundError, ValueError) as exc:
+    raise SystemExit(f"DG registry audit failed: {exc}") from exc
+
 print("PASS: all 12 mathematics ecosystem modules are present.")
+print(f"PASS: DG-DAG-001 validated with {len(order)} objects and deterministic GraphML.")
