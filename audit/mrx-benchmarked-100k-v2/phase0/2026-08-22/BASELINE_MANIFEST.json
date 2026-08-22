@@ -1,0 +1,30 @@
+{
+  "audit_timestamp_utc": "2026-08-22T03:11:31Z",
+  "deterministic_perfect_score_gate": "NOT_SATISFIED",
+  "files": {
+    "ACCOUNT_INVENTORY.json": "e4333197781da771f8f5f84d0904a780817f4eece08992964acb5fae4ec19939",
+    "AUDIT_TIMESTAMP_UTC.txt": "3990a60eabc2fdf7b5ee328ecf72b3bb5aee807358860c575e41f218744e8849",
+    "BASELINE_SHA256SUMS.txt": "0d0035c653bbe728d30b56c9084421cc62863175fc5fad7346cd45d9444d7e40",
+    "BRANCH_MATRIX.csv": "e5ef6229ca34274fc9c7b6436e23569f9cf81be60adad040c5025ed3e4373576",
+    "CANONICAL_ASSET_MATRIX.csv": "9dd92bd41040c9d5516071fd4226b225bab428d41bf95416627eb2988af3b443",
+    "CI_STATUS_MATRIX.csv": "855d6bd88f5d53bd6a8af3ffe3382cc1a51b32056737c3dd377067b5d02033d2",
+    "DEPENDENCY_MATRIX.csv": "12aef54014ee2696d819efb144ac977aff37b044e568999cc4174e4802b18bd3",
+    "OPEN_PR_MATRIX.csv": "a849f6b1a98222e1172c72f30bdd84ab8d253bae5fd9a37c082e9f930bd16cfb",
+    "PHASE_0_AUDIT.md": "f977e88f56fa568bcc18152f736493ab28c2aa00be04964b74c0d7622036d513",
+    "RELEASE_MATRIX.csv": "40598fec7ac2df40c41a2d98458aba0031c0ceedced367346678ae8770674ea4",
+    "REPOSITORY_STATE_MATRIX.csv": "ad88f9c6fb0f61600d09fe5113737a90de8664669d42b4a57e55912ba89f0053",
+    "RESEARCH_MATURITY_MATRIX.csv": "6d5ea28097f6fd367d5e23a066270bc4d44b75c998f36e402216769a095f3d9e",
+    "SECURITY_BASELINE.json": "ed2adad6f4aae93ade01f79e7cf516750e6e96b10b2ac82dd33409e5b4707613"
+  },
+  "hash_algorithm": "SHA-256",
+  "main_heads_with_pr_triggered_workflow_run": 0,
+  "monte_carlo_100k_authorized": false,
+  "open_pr_count": 2,
+  "owner": "Dossiya-SE",
+  "phase": "PHASE_0_LIVE_BASELINE",
+  "protocol": "DOSSYA_MRX_BENCHMARKED_100K_V2",
+  "reason_100k_not_authorized": "Deterministic perfect-score gates are not satisfied; open blockers and unexecuted verification/security/canonicality gates remain.",
+  "repository_count": 14,
+  "status": "FROZEN_LOCALLY_BEFORE_ANY_V2_GITHUB_WRITE",
+  "unknown_policy": "UNKNOWN/NOT_QUERIED fields are never interpreted as PASS."
+}
