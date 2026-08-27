@@ -120,7 +120,8 @@ def audit_scientific_contracts() -> None:
     standard = (MODULE / "MASTERY_STANDARD.md").read_text(encoding="utf-8")
     require("non-compensatory" in standard.lower(), "Mastery standard must declare non-compensatory promotion")
     require("falsification" in standard.lower(), "Mastery standard must include falsification")
-    require("GEOMETRIC" in standard or "geometric" in standard.lower(), "Geometry transfer boundary missing")
+    require("## 9. Differential-geometry transfer rule" in standard, "Differential-geometry transfer rule missing")
+    require("application state space" in standard.lower(), "Application-state-space semantics missing from geometry transfer rule")
 
     source = (ATLAS / "WQU_MATHEMATICS_FOUNDATION_RESOURCES_2024.md").read_text(encoding="utf-8")
     require("USER_PROVIDED_SOURCE" in source, "WQU source provenance status missing")
