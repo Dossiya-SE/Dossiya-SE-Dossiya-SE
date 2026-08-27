@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Mathematics Mastery to Research Lattice</title>
+  <desc id="desc">A scientific dependency visualization linking foundations, mathematical maturity, verified computation, geometry and dynamics, and bounded research transfer. Node colors encode epistemic roles rather than decorative categories.</desc>
+  <style>
+    :root{--bg:#fbfbf8;--fg:#111827;--muted:#5f6673;--line:#a3a8b0;--source:#1f6f5c;--derive:#7a4e00;--verify:#3157a4;--hyp:#81364d;--panel:#ffffff;--grid:#d9dce1}
+    @media (prefers-color-scheme: dark){:root{--bg:#0b0e13;--fg:#f1f5f9;--muted:#a7b0bd;--line:#667085;--source:#70d6b2;--derive:#f0bd62;--verify:#8fb3ff;--hyp:#f29ab3;--panel:#111722;--grid:#202938}}
+    .bg{fill:var(--bg)}.grid{stroke:var(--grid);stroke-width:1}.axis{stroke:var(--line);stroke-width:1.5}.flow{fill:none;stroke:var(--line);stroke-width:2}.major{fill:none;stroke:var(--fg);stroke-width:2.4}.node{fill:var(--panel);stroke-width:2.4}.s{stroke:var(--source)}.d{stroke:var(--derive)}.v{stroke:var(--verify)}.h{stroke:var(--hyp)}
+    text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:var(--fg)}.label{font-size:22px;font-weight:650}.small{font-size:15px;fill:var(--muted)}.formula{font-family:STIX Two Math,Cambria Math,serif;font-size:20px}.phase{font-size:14px;letter-spacing:2px;font-weight:700;fill:var(--muted)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 Z" fill="var(--line)"/></marker><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" class="grid" fill="none"/></pattern></defs>
+  <rect width="1600" height="720" class="bg"/><rect x="40" y="50" width="1520" height="610" fill="url(#grid)" opacity=".38"/>
+  <line x1="100" y1="620" x2="1510" y2="620" class="axis"/><line x1="100" y1="620" x2="100" y2="105" class="axis"/>
+  <text x="118" y="92" class="phase">MATHEMATICAL MATURITY / EVIDENCE DEPTH</text><text x="1260" y="650" class="phase">RESEARCH TRANSFER →</text>
+
+  <path d="M180 555 C300 510,350 500,450 470" class="flow" marker-end="url(#arrow)"/><path d="M450 470 C570 430,620 410,740 365" class="flow" marker-end="url(#arrow)"/><path d="M740 365 C875 320,920 310,1030 265" class="flow" marker-end="url(#arrow)"/><path d="M1030 265 C1180 220,1240 205,1395 165" class="major" marker-end="url(#arrow)"/>
+
+  <g transform="translate(180 555)"><circle r="65" class="node s"/><text y="-8" text-anchor="middle" class="label">Foundations</text><text y="20" text-anchor="middle" class="small">[S] source-grounded</text><text y="45" text-anchor="middle" class="formula">A v = λv</text></g>
+  <g transform="translate(450 470)"><circle r="70" class="node d"/><text y="-10" text-anchor="middle" class="label">Derive / Prove</text><text y="18" text-anchor="middle" class="small">[D] independent work</text><text y="47" text-anchor="middle" class="formula">∀ε&gt;0 ∃δ&gt;0</text></g>
+  <g transform="translate(740 365)"><circle r="76" class="node v"/><text y="-18" text-anchor="middle" class="label">Compute / Verify</text><text y="12" text-anchor="middle" class="small">[C] → [V]</text><text y="43" text-anchor="middle" class="formula">‖A v − λv‖ &lt; ε</text></g>
+  <g transform="translate(1030 265)"><circle r="82" class="node v"/><text y="-25" text-anchor="middle" class="label">Geometry + Dynamics</text><text y="5" text-anchor="middle" class="small">structure before metaphor</text><text y="37" text-anchor="middle" class="formula">∇ₓY ·  ẋ = 0</text></g>
+  <g transform="translate(1395 165)"><circle r="88" class="node h"/><text y="-26" text-anchor="middle" class="label">Research Transfer</text><text y="6" text-anchor="middle" class="small">[H] until falsified/validated</text><text y="40" text-anchor="middle" class="formula">Gᴿ = ∧ᵢ Gᵢ</text></g>
+
+  <path d="M310 590 C470 650,630 645,795 575" class="flow"/><path d="M795 575 C980 500,1150 485,1325 520" class="flow"/>
+  <g transform="translate(805 575)"><rect x="-190" y="-42" width="380" height="84" rx="16" class="node d"/><text y="-8" text-anchor="middle" class="label">Non-compensatory gate</text><text y="23" text-anchor="middle" class="formula">L(τ) ≤ min  L_g</text></g>
+
+  <text x="118" y="690" class="small">Visual invariant: scientific semantics before rendering = scientific semantics after rendering, within declared tolerance.</text>
+</svg>
