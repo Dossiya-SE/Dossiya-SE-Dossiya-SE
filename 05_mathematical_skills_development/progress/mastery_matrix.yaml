@@ -1,0 +1,47 @@
+schema_id: MMS-MASTERY-MATRIX-001
+version: 1.0.0
+status: PROPOSED_ACTIVE_REVIEW
+updated: 2026-08-27
+
+rules:
+  global_mastery_claim: prohibited
+  promotion: non_compensatory
+  default_competency_state: NOT_TESTED
+  visual_quality_counts_as_mastery_evidence: false
+  course_completion_counts_as_mastery_evidence: false
+
+subjects:
+  - {id: MATH-00, name: Mathematical Reasoning, phase: maturity, prerequisites: [], state: NOT_TESTED}
+  - {id: MATH-01, name: College Algebra, phase: foundations, prerequisites: [], state: NOT_TESTED}
+  - {id: MATH-02, name: Linear Algebra, phase: foundations, prerequisites: [MATH-01], state: NOT_TESTED}
+  - {id: MATH-03, name: Differential Calculus, phase: foundations, prerequisites: [MATH-01], state: NOT_TESTED}
+  - {id: MATH-04, name: Integral Calculus, phase: foundations, prerequisites: [MATH-03], state: NOT_TESTED}
+  - {id: MATH-05, name: Multivariable Calculus, phase: maturity, prerequisites: [MATH-02, MATH-04], state: NOT_TESTED}
+  - {id: MATH-06, name: Differential Equations, phase: foundations, prerequisites: [MATH-02, MATH-05], state: NOT_TESTED}
+  - {id: MATH-07, name: Probability, phase: foundations, prerequisites: [MATH-04, MATH-10], state: NOT_TESTED}
+  - {id: MATH-08, name: Statistics, phase: core_research, prerequisites: [MATH-07, MATH-11], state: NOT_TESTED}
+  - {id: MATH-09, name: Discrete Mathematics, phase: maturity, prerequisites: [MATH-00], state: NOT_TESTED}
+  - {id: MATH-10, name: Real Analysis, phase: maturity, prerequisites: [MATH-00, MATH-04, MATH-05], state: NOT_TESTED}
+  - {id: MATH-11, name: Advanced Linear Algebra, phase: maturity, prerequisites: [MATH-02], state: NOT_TESTED}
+  - {id: MATH-12, name: Numerical Analysis, phase: core_research, prerequisites: [MATH-02, MATH-10], state: NOT_TESTED}
+  - {id: MATH-13, name: Optimization, phase: core_research, prerequisites: [MATH-02, MATH-05, MATH-10], state: NOT_TESTED}
+  - {id: MATH-14, name: Graph Theory, phase: core_research, prerequisites: [MATH-02, MATH-09], state: NOT_TESTED}
+  - {id: MATH-15, name: Dynamical Systems, phase: core_research, prerequisites: [MATH-06, MATH-11], state: NOT_TESTED}
+  - {id: MATH-16, name: Stochastic Processes, phase: core_research, prerequisites: [MATH-07, MATH-10], state: NOT_TESTED}
+  - {id: MATH-17, name: Topology, phase: geometry, prerequisites: [MATH-10], state: NOT_TESTED}
+  - {id: MATH-18, name: Differential Geometry, phase: geometry, prerequisites: [MATH-02, MATH-05, MATH-17], state: NOT_TESTED}
+  - {id: MATH-19, name: Riemannian Geometry, phase: geometry, prerequisites: [MATH-11, MATH-18], state: NOT_TESTED}
+  - {id: MATH-20, name: Partial Differential Equations, phase: fields_control, prerequisites: [MATH-06, MATH-10, MATH-12], state: NOT_TESTED}
+  - {id: MATH-21, name: Control Theory, phase: fields_control, prerequisites: [MATH-06, MATH-13, MATH-15], state: NOT_TESTED}
+  - {id: MATH-22, name: Viability Theory, phase: fields_control, prerequisites: [MATH-13, MATH-15, MATH-21], state: NOT_TESTED}
+  - {id: MATH-23, name: Uncertainty Quantification, phase: fields_control, prerequisites: [MATH-07, MATH-08, MATH-12], state: NOT_TESTED}
+  - {id: MATH-24, name: Research Mathematics, phase: research, prerequisites: [MATH-10, MATH-12, MATH-15], state: NOT_TESTED}
+
+competency_template:
+  recognize: NOT_TESTED
+  understand: NOT_TESTED
+  derive: NOT_TESTED
+  prove_or_solve: NOT_TESTED
+  implement: NOT_TESTED
+  verify: NOT_TESTED
+  generalize: NOT_TESTED

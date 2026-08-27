@@ -1,0 +1,46 @@
+{
+  "schema_id": "MMS-COMPETENCY-REGISTRY-001",
+  "version": "1.0.0",
+  "status": "PROPOSED_ACTIVE_REVIEW",
+  "competency_dimensions": [
+    "recognize",
+    "understand",
+    "derive",
+    "prove_or_solve",
+    "implement",
+    "verify",
+    "generalize"
+  ],
+  "allowed_states": [
+    "NOT_TESTED",
+    "IN_PROGRESS",
+    "PASS",
+    "FAIL",
+    "BLOCKED",
+    "EXEMPT_WITH_RATIONALE"
+  ],
+  "evidence_states": {
+    "S": "source-grounded",
+    "D": "derived",
+    "M": "model",
+    "C": "computed",
+    "V": "verified",
+    "E": "empirical",
+    "H": "hypothesis",
+    "T": "engineering/design target"
+  },
+  "independent_evidence_types": [
+    "closed_notes_derivation",
+    "unseen_problem_solution",
+    "proof_reconstruction",
+    "counterexample",
+    "implementation_from_specification",
+    "symbolic_cross_check",
+    "numerical_residual_test",
+    "convergence_study",
+    "independent_method_comparison",
+    "source_result_reproduction",
+    "assumption_failure_analysis"
+  ],
+  "critical_rule": "A failed required gate cannot be compensated by performance on another gate."
+}
