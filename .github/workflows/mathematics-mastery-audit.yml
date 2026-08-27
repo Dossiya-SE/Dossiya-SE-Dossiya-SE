@@ -1,0 +1,35 @@
+name: Mathematics Mastery Audit
+
+on:
+  push:
+    paths:
+      - '05_mathematical_skills_development/**'
+      - '11_mathematics_literature_atlas/educational_sources/**'
+      - '.github/workflows/mathematics-mastery-audit.yml'
+  pull_request:
+    paths:
+      - '05_mathematical_skills_development/**'
+      - '11_mathematics_literature_atlas/educational_sources/**'
+      - '.github/workflows/mathematics-mastery-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  mastery-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install audit dependency
+        run: python -m pip install --disable-pip-version-check --no-cache-dir pyyaml==6.0.2
+
+      - name: Run fail-closed mathematics mastery audit
+        run: python 05_mathematical_skills_development/validation/validate_mastery_system.py
