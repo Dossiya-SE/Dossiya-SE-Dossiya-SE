@@ -10,6 +10,15 @@ It is organized as a monorepo prototype with twelve bounded modules. Each module
 
 The top visual is a single adaptive SVG: it preserves mathematical content and evidence status while switching contrast and semantic color tokens with the viewer's light/dark system preference.
 
+### Deterministic structural-reveal animation
+
+<p align="center">
+  <img src="assets/animations/mathematics-ecosystem-flow-v1.gif" width="100%" alt="Deterministic structural reveal of the twelve-module Mathematics Research Ecosystem" />
+</p>
+
+**Motion variable:** `τ_ui` (presentation order only). The animation reveals the twelve research modules in their governed sequence. It does **not** represent physical time, learning speed, importance, causal strength, or empirical evidence. The adaptive SVG above remains the authoritative static architecture.
+
+
 ## Scientific pipeline
 
 $$

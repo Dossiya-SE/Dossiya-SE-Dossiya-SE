@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "animation_id": "MATH-ECO-FLOW-V1",
+  "title": "Mathematics Research Ecosystem structural reveal",
+  "repository_role": "RESEARCH_ECOSYSTEM",
+  "evidence_state": "T",
+  "static_master": "assets/mathematics-ecosystem-v4.svg",
+  "derivative": "assets/animations/mathematics-ecosystem-flow-v1.gif",
+  "generator": "06_mathematical_visualization_art/animations/generate_ecosystem_flow_v1.py",
+  "motion_variable": {
+    "symbol": "tau_ui",
+    "meaning": "presentation/reveal progress",
+    "physical_time": false
+  },
+  "semantics": {
+    "ordered_modules": 12,
+    "accent_rgb": [
+      135,
+      206,
+      250
+    ],
+    "accent_hex": "#87CEFA",
+    "claim_boundary": "Animation shows governed module order only; it does not encode importance, learning speed, causal strength or empirical evidence."
+  },
+  "export": {
+    "width": 1200,
+    "height": 675,
+    "frames": 48,
+    "frame_duration_ms": 100,
+    "loop": true
+  },
+  "deterministic": true,
+  "static_authority_required": true
+}
