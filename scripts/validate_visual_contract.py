@@ -40,8 +40,9 @@ for p in files():
     if p.resolve()==SELF:
         continue
     s=p.read_text(encoding="utf-8")
-    if FORBIDDEN_WORDS.search(s):
-        fail.append(f"{p.relative_to(ROOT)}: forbidden warm/gold semantic name")
+    for pattern in VISUAL_NAME_PATTERNS:
+        if pattern.search(s):
+            fail.append(f"{p.relative_to(ROOT)}: forbidden warm/gold visual identifier")
     for token in set(re.findall(r"#[0-9A-Fa-f]{6}\b",s)):
         if warm(token):
             fail.append(f"{p.relative_to(ROOT)}: unauthorized warm hue {token}")
