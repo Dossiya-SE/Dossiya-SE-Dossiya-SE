@@ -3,7 +3,7 @@ name: Generate governed visual animations
 on:
   push:
     branches:
-      - design/visual-governance-motion-v1-20260923
+      - main
     paths:
       - '06_mathematical_visualization_art/animations/**'
       - '.github/workflows/generate-visual-animations.yml'
@@ -17,8 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-        with:
-          ref: design/visual-governance-motion-v1-20260923
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
@@ -35,5 +33,5 @@ jobs:
             echo "Animation already deterministic and current."
           else
             git commit -m "build(visual): materialize ecosystem structural-reveal GIF"
-            git push origin HEAD:design/visual-governance-motion-v1-20260923
+            git push origin HEAD:main
           fi
