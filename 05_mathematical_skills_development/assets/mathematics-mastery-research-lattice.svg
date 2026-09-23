@@ -2,8 +2,8 @@
   <title id="title">Mathematics Mastery to Research Lattice</title>
   <desc id="desc">A scientific dependency visualization linking foundations, mathematical maturity, verified computation, geometry and dynamics, and bounded research transfer. Node colors encode epistemic roles rather than decorative categories.</desc>
   <style>
-    :root{--bg:#fbfbf8;--fg:#111827;--muted:#5f6673;--line:#a3a8b0;--source:#1f6f5c;--derive:#7a4e00;--verify:#3157a4;--hyp:#81364d;--panel:#ffffff;--grid:#d9dce1}
-    @media (prefers-color-scheme: dark){:root{--bg:#0b0e13;--fg:#f1f5f9;--muted:#a7b0bd;--line:#667085;--source:#70d6b2;--derive:#f0bd62;--verify:#8fb3ff;--hyp:#f29ab3;--panel:#111722;--grid:#202938}}
+    :root{--bg:#fbfbf8;--fg:#111827;--muted:#5f6673;--line:#a3a8b0;--source:#1f6f5c;--derive:#0e7490;--verify:#3157a4;--hyp:#81364d;--panel:#ffffff;--grid:#d9dce1}
+    @media (prefers-color-scheme: dark){:root{--bg:#0b0e13;--fg:#f1f5f9;--muted:#a7b0bd;--line:#667085;--source:#70d6b2;--derive:#67e8f9;--verify:#8fb3ff;--hyp:#f29ab3;--panel:#111722;--grid:#202938}}
     .bg{fill:var(--bg)}.grid{stroke:var(--grid);stroke-width:1}.axis{stroke:var(--line);stroke-width:1.5}.flow{fill:none;stroke:var(--line);stroke-width:2}.major{fill:none;stroke:var(--fg);stroke-width:2.4}.node{fill:var(--panel);stroke-width:2.4}.s{stroke:var(--source)}.d{stroke:var(--derive)}.v{stroke:var(--verify)}.h{stroke:var(--hyp)}
     text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:var(--fg)}.label{font-size:22px;font-weight:650}.small{font-size:15px;fill:var(--muted)}.formula{font-family:STIX Two Math,Cambria Math,serif;font-size:20px}.phase{font-size:14px;letter-spacing:2px;font-weight:700;fill:var(--muted)}
   </style>
