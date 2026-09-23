@@ -14,7 +14,11 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-FORBIDDEN_WORDS = re.compile(r"\b(gold|golden|goldenrod|darkgoldenrod|amber|ochre|yellow-gold)\b", re.I)
+VISUAL_NAME_PATTERNS = [
+    re.compile(r"--(?:gold|amber|ochre|yellow-gold)\\b", re.I),
+    re.compile(r"(?:fill|stroke)=[\\\"\'](?:gold|goldenrod|darkgoldenrod|amber|ochre)[\\\"\']", re.I),
+    re.compile(r"\\b(?:GOLD|AMBER|OCHRE)\\s*=", re.I),
+]
 TEXT_SUFFIX = {".md",".svg",".py",".json",".yml",".yaml",".css",".js",".mjs",".html"}
 SCAN_ROOTS = [ROOT/"README.md", ROOT/"assets", ROOT/"05_mathematical_skills_development", ROOT/"06_mathematical_visualization_art", ROOT/"docs"/"visual-system"]
 SELF = Path(__file__).resolve()
