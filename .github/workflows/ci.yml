@@ -16,3 +16,4 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pytest
       - run: python scripts/audit_repository.py
+      - run: python scripts/validate_visual_contract.py
